@@ -44,7 +44,34 @@ def _get_client() -> AsyncOpenAI:
     return client
 
 
+MOCK_RESPONSES = {
+    "default": (
+        "Great question! On an animal-based diet, you'd want to focus on "
+        "nutrient-dense animal foods like beef, eggs, and raw dairy, paired "
+        "with low-toxin fruits like berries and honey for carbs. "
+        "Would you like specific meal ideas?"
+    ),
+    "breakfast": (
+        "A solid animal-based breakfast could be: 3-4 pastured eggs cooked in "
+        "butter or tallow, a side of ground beef or steak, and some raw honey "
+        "with berries. This gives you quality protein, healthy fats, and "
+        "easy-to-digest carbs to start the day."
+    ),
+}
+
+
+def _mock_reply(message: str) -> str:
+    lower = message.lower()
+    for keyword, response in MOCK_RESPONSES.items():
+        if keyword in lower:
+            return response
+    return MOCK_RESPONSES["default"]
+
+
 async def get_reply(message: str, history: list[MessageEntry]) -> str:
+    if not os.getenv("OPENAI_API_KEY"):
+        return _mock_reply(message)
+
     openai_client = _get_client()
 
     messages = [{"role": "system", "content": SYSTEM_PROMPT}]
