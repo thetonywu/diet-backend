@@ -55,6 +55,9 @@ async def get_current_user(
         unverified_claims = jwt.get_unverified_claims(token)
         print(f"DEBUG token issuer: {unverified_claims.get('iss')}")
         print(f"DEBUG expected issuer: {os.getenv('SUPABASE_URL')}/auth/v1")
+        print(f"DEBUG token header alg: {unverified_header.get('alg')}")
+        print(f"DEBUG token header kid: {unverified_header.get('kid')}")
+        print(f"DEBUG matched key alg: {rsa_key.get('alg')}, kty: {rsa_key.get('kty')}")
         payload = jwt.decode(
             token,
             rsa_key,
