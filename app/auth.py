@@ -1,18 +1,21 @@
 import os
+import time
 
 import httpx
 from fastapi import Depends, HTTPException
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
-from jose import jwt, jwk, JWTError
+from jose import jwt, JWTError
 
 security = HTTPBearer()
 
 _jwks_cache: dict | None = None
+_jwks_fetched_at: float = 0
+JWKS_TTL = 3600
 
 
 async def _get_jwks() -> dict:
-    global _jwks_cache
-    if _jwks_cache is None:
+    global _jwks_cache, _jwks_fetched_at
+    if _jwks_cache is None or (time.monotonic() - _jwks_fetched_at) > JWKS_TTL:
         supabase_url = os.getenv("SUPABASE_URL")
         if not supabase_url:
             raise HTTPException(status_code=500, detail="SUPABASE_URL not configured")
@@ -20,8 +23,10 @@ async def _get_jwks() -> dict:
             resp = await client.get(
                 f"{supabase_url}/auth/v1/.well-known/jwks.json"
             )
-            resp.raise_for_status()
+            if resp.status_code != 200:
+                raise HTTPException(status_code=500, detail="Failed to fetch JWKS from identity provider")
             _jwks_cache = resp.json()
+            _jwks_fetched_at = time.monotonic()
     return _jwks_cache
 
 
@@ -50,8 +55,9 @@ async def get_current_user(
         payload = jwt.decode(
             token,
             rsa_key,
-            algorithms=[unverified_header.get("alg", "RS256")],
+            algorithms=["RS256"],
             audience="authenticated",
+            issuer=f"{os.getenv('SUPABASE_URL')}/auth/v1",
         )
     except JWTError:
         raise HTTPException(status_code=401, detail="Invalid or expired token")

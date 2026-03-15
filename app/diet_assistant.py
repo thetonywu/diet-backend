@@ -1,11 +1,8 @@
 import os
 
 from openai import AsyncOpenAI
-from dotenv import load_dotenv
 
 from app.models import MessageEntry
-
-load_dotenv()
 
 SYSTEM_PROMPT = """You are a knowledgeable and friendly animal-based diet assistant.
 
