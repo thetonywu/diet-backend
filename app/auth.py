@@ -8,6 +8,8 @@ from jose import jwt, JWTError
 
 security = HTTPBearer()
 
+ALLOWED_ALGORITHMS = ["RS256", "ES256"]
+
 _jwks_cache: dict | None = None
 _jwks_fetched_at: float = 0
 JWKS_TTL = 3600
@@ -40,33 +42,30 @@ async def get_current_user(
     except JWTError:
         raise HTTPException(status_code=401, detail="Invalid token header")
 
+    token_alg = unverified_header.get("alg")
+    if token_alg not in ALLOWED_ALGORITHMS:
+        raise HTTPException(status_code=401, detail="Unsupported token algorithm")
+
     jwks = await _get_jwks()
 
-    rsa_key = None
+    signing_key = None
     for key_data in jwks.get("keys", []):
         if key_data.get("kid") == unverified_header.get("kid"):
-            rsa_key = key_data
+            signing_key = key_data
             break
 
-    if not rsa_key:
+    if not signing_key:
         raise HTTPException(status_code=401, detail="Unable to find matching signing key")
 
     try:
-        unverified_claims = jwt.get_unverified_claims(token)
-        print(f"DEBUG token issuer: {unverified_claims.get('iss')}")
-        print(f"DEBUG expected issuer: {os.getenv('SUPABASE_URL')}/auth/v1")
-        print(f"DEBUG token header alg: {unverified_header.get('alg')}")
-        print(f"DEBUG token header kid: {unverified_header.get('kid')}")
-        print(f"DEBUG matched key alg: {rsa_key.get('alg')}, kty: {rsa_key.get('kty')}")
         payload = jwt.decode(
             token,
-            rsa_key,
-            algorithms=["RS256"],
+            signing_key,
+            algorithms=[token_alg],
             audience="authenticated",
             issuer=f"{os.getenv('SUPABASE_URL')}/auth/v1",
         )
-    except JWTError as e:
-        print(f"DEBUG JWT error: {e}")
+    except JWTError:
         raise HTTPException(status_code=401, detail="Invalid or expired token")
 
     return payload
