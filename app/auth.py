@@ -52,6 +52,9 @@ async def get_current_user(
         raise HTTPException(status_code=401, detail="Unable to find matching signing key")
 
     try:
+        unverified_claims = jwt.get_unverified_claims(token)
+        print(f"DEBUG token issuer: {unverified_claims.get('iss')}")
+        print(f"DEBUG expected issuer: {os.getenv('SUPABASE_URL')}/auth/v1")
         payload = jwt.decode(
             token,
             rsa_key,
@@ -59,7 +62,8 @@ async def get_current_user(
             audience="authenticated",
             issuer=f"{os.getenv('SUPABASE_URL')}/auth/v1",
         )
-    except JWTError:
+    except JWTError as e:
+        print(f"DEBUG JWT error: {e}")
         raise HTTPException(status_code=401, detail="Invalid or expired token")
 
     return payload
