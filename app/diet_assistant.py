@@ -75,6 +75,8 @@ async def get_reply(message: str, history: list[MessageEntry]) -> str:
     for entry in history:
         messages.append({"role": entry.role, "content": entry.content})
 
+    messages.append({"role": "user", "content": message})
+
     response = await openai_client.chat.completions.create(
         model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
         messages=messages,
