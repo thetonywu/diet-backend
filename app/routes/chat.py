@@ -1,10 +1,11 @@
 import asyncio
 import logging
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, Request
 
-from app.auth import get_current_user
+from app.auth import get_optional_user
 from app.db import insert_chat_request
+from app.limiter import rate_limit
 from app.models import ChatRequest, ChatResponse
 from app.diet_assistant import get_reply
 
@@ -14,21 +15,24 @@ router = APIRouter()
 
 
 @router.post("/chat", response_model=ChatResponse)
-async def chat(request: ChatRequest, user: dict = Depends(get_current_user)):
-    reply = await get_reply(request.message, request.history)
+async def chat(request: Request, body: ChatRequest, user: dict | None = Depends(get_optional_user), _: None = Depends(rate_limit)):
+    reply = await get_reply(body.message, body.history)
 
-    input_messages = [{"role": e.role, "content": e.content} for e in request.history]
-    input_messages.append({"role": "user", "content": request.message})
+    input_messages = [{"role": e.role, "content": e.content} for e in body.history]
 
-    asyncio.ensure_future(
-        _log_request(user["sub"], input_messages, reply)
-    )
+    if user:
+        asyncio.ensure_future(
+            _log_request(user["sub"], body.message, input_messages, reply)
+        )
+    else:
+        ip = request.client.host if request.client else "unknown"
+        logger.info("Logged-out chat from %s: %s", ip, body.message)
 
     return ChatResponse(reply=reply)
 
 
-async def _log_request(user_id: str, input: list[dict], response: str) -> None:
+async def _log_request(user_id: str, message: str, input: list[dict], response: str) -> None:
     try:
-        await insert_chat_request(user_id, input, response)
+        await insert_chat_request(user_id, message, input, response)
     except Exception:
         logger.exception("Failed to log chat request")

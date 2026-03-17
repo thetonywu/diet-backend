@@ -7,6 +7,7 @@ from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from jose import jwt, JWTError
 
 security = HTTPBearer()
+security_optional = HTTPBearer(auto_error=False)
 
 ALLOWED_ALGORITHMS = ["RS256", "ES256"]
 
@@ -32,11 +33,7 @@ async def _get_jwks() -> dict:
     return _jwks_cache
 
 
-async def get_current_user(
-    credentials: HTTPAuthorizationCredentials = Depends(security),
-) -> dict:
-    token = credentials.credentials
-
+async def _verify_token(token: str) -> dict:
     try:
         unverified_header = jwt.get_unverified_header(token)
     except JWTError:
@@ -69,3 +66,17 @@ async def get_current_user(
         raise HTTPException(status_code=401, detail="Invalid or expired token")
 
     return payload
+
+
+async def get_current_user(
+    credentials: HTTPAuthorizationCredentials = Depends(security),
+) -> dict:
+    return await _verify_token(credentials.credentials)
+
+
+async def get_optional_user(
+    credentials: HTTPAuthorizationCredentials | None = Depends(security_optional),
+) -> dict | None:
+    if credentials is None:
+        return None
+    return await _verify_token(credentials.credentials)
