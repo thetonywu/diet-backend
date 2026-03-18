@@ -77,17 +77,15 @@ async def get_reply(message: str, history: list[MessageEntry]) -> str:
 
     openai_client = _get_client()
 
-    messages = [{"role": "system", "content": SYSTEM_PROMPT}]
-    for entry in history:
-        messages.append({"role": entry.role, "content": entry.content})
+    input_messages = [{"role": entry.role, "content": entry.content} for entry in history]
+    input_messages.append({"role": "user", "content": message})
 
-    messages.append({"role": "user", "content": message})
-
-    response = await openai_client.chat.completions.create(
+    response = await openai_client.responses.create(
         model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
-        messages=messages,
-        max_tokens=1024,
-        temperature=0.7,
+        instructions=SYSTEM_PROMPT,
+        input=input_messages,
+        tools=[{"type": "web_search_preview"}],
+        max_output_tokens=1024,
     )
 
-    return response.choices[0].message.content
+    return response.output_text
