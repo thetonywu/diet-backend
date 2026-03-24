@@ -15,7 +15,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 
 ## Foods to Avoid & Why
 
-- [ ] Are seed oils really that bad? What does the science say?
+- [x] Are seed oils really that bad? What does the science say?
 - [ ] Which specific products and brands should I avoid?
 - [ ] Which bottled water brands are safe vs. harmful?
 - [ ] What's wrong with vegetables? Which ones are the worst?
