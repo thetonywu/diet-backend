@@ -23,7 +23,6 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [ ] Which butter should I buy and which should I avoid?
 - [ ] Which olive oils are actually real and safe?
 - [ ] Which fish should I eat and which should I avoid?
-- [ ] What's wrong with sardines?
 - [ ] Are restaurant meals safe? What are the hidden dangers?
 - [ ] What are "fake health foods" I should watch out for?
 

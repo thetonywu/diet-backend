@@ -20,7 +20,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 
 ## Longevity & Disease Prevention
 
-- [ ] Maximize lifespan and healthspan (live to 120+)
+- [ ] Maximize lifespan and healthspan
 - [ ] Reverse or prevent chronic disease
 - [ ] Improve heart health and prevent cardiovascular disease
 - [ ] Reduce cancer risk

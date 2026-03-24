@@ -23,7 +23,7 @@ Research compiled from Paul Saladino MD's YouTube playlists and content themes.
 | LDL / Cholesterol | Why high LDL may not be dangerous, lipid panel interpretation |
 | Carbohydrates & Fructose | Role of fruit, honey, and carbs in the animal-based diet |
 | Vegetables | Case against plant toxins, oxalates, lectins, phytates |
-| Debunking Veganism | Countering plant-based diet claims with evidence |
+| Plant-Based Diet Comparison | Comparing animal-based and plant-based diets, addressing common claims |
 | Blue Zones & Longevity | Lifespan optimization, ancestral health practices |
 | Women's Health | Fertility, pregnancy, postpartum, hormonal balance |
 | Ancestral Lifestyle | Living in alignment with evolutionary biology |

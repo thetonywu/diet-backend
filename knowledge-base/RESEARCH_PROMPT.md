@@ -16,7 +16,7 @@ Open `knowledge-base/top-questions.md` and `knowledge-base/top-goals.md`. Find a
 
 Do deep research on the topic using Paul Saladino's content as the primary source. Use these sources in priority order:
 
-1. **Paul Saladino's YouTube videos** — search his channel (youtube.com/@PaulSaladinoMD) for videos on the topic. Watch or read transcripts of the most relevant ones. Note his specific claims, recommendations, and reasoning.
+1. **Paul Saladino's YouTube videos** — search his channel (youtube.com/@PaulSaladinoMD) for videos on the topic. Use YouTube's auto-generated captions or a transcript tool to extract content from the most relevant videos. Note his specific claims, recommendations, and reasoning.
 2. **Paul Saladino's podcast** (Fundamental Health) — search for relevant episodes and extract key points.
 3. **Heart & Soil website** (heartandsoil.co) — check for blog posts, guides, or product pages related to the topic.
 4. **Paul Saladino's website** (paulsaladinomd.com) — check for articles or guides.
@@ -87,7 +87,7 @@ Guidelines for writing:
 
 ### Step 4: Check It Off
 
-After saving the article, update the corresponding todo list file (`top-questions.md` or `top-goals.md`) by changing the item from `- [ ]` to `- [x]`.
+After saving the article, update the corresponding todo list file (`top-questions.md` or `top-goals.md`) by changing the item from `- [ ]` to `- [x]`. Note that one article may satisfy items in both files — check off all matching items across both checklists.
 
 ### Step 5: Commit
 
