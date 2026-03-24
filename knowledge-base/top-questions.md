@@ -4,7 +4,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 
 ## Getting Started & Food Choices
 
-- [ ] What foods should I eat on the animal-based diet?
+- [x] What foods should I eat on the animal-based diet?
 - [x] What's the difference between animal-based and carnivore?
 - [ ] What does a typical day of eating look like?
 - [ ] How do I eat animal-based on a budget?
