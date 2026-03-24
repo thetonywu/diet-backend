@@ -42,6 +42,8 @@ Use this template for the article:
 ```markdown
 # <Title as a Clear Question or Goal Statement>
 
+**Categories:** <comma-separated list of categories from knowledge-base/categories.md>
+
 ## TLDR
 
 <2-3 sentence summary a chatbot could use as a quick answer>
@@ -76,6 +78,7 @@ Use this template for the article:
 ```
 
 Guidelines for writing:
+- Assign 1-3 categories from `knowledge-base/categories.md`. Pick the categories that best match the article's primary topic. Most articles should have 1-2; use 3 only when the topic genuinely spans multiple areas.
 - Write in a neutral, informative tone. Present Paul Saladino's views as his recommendations, not as universal facts.
 - Be specific and actionable. "Eat liver" is better than "eat organ meats." "Cook with tallow or ghee" is better than "use healthy fats."
 - Include brand names, quantities, and protocols when Paul provides them.
@@ -115,7 +118,8 @@ knowledge-base/
 
 Before committing, verify:
 
-- [ ] Article has all template sections filled out (TLDR, Background, Recommendations, Key Points, Common Mistakes, Sources)
+- [ ] Article has all template sections filled out (Categories, TLDR, Background, Recommendations, Key Points, Common Mistakes, Sources)
+- [ ] Categories are valid entries from `knowledge-base/categories.md` (1-3 categories)
 - [ ] At least 2 sources are cited with URLs
 - [ ] At least one source is directly from Paul Saladino's content
 - [ ] Key Points are specific enough for a chatbot to use as standalone answers
