@@ -4,7 +4,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 
 ## Body Composition & Performance
 
-- [ ] Lose weight and get lean naturally
+- [x] Lose weight and get lean naturally
 - [ ] Build muscle and improve fitness
 - [ ] Stay properly hydrated
 - [ ] Improve flexibility and mobility
@@ -30,7 +30,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 
 - [x] Fix gut health issues (bloating, IBS, leaky gut)
 - [ ] Improve hair growth and stop hair loss
-- [ ] Clear up skin issues (acne, eczema, psoriasis)
+- [x] Clear up skin issues (acne, eczema, psoriasis)
 - [ ] Reduce inflammation
 
 ## Fertility & Women's Health
@@ -43,7 +43,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 
 ## Sleep & Mental Health
 
-- [ ] Sleep better and fall asleep faster
+- [x] Sleep better and fall asleep faster
 - [ ] Improve energy levels throughout the day
 - [ ] Improve mental clarity and focus
 - [ ] Reduce brain fog
