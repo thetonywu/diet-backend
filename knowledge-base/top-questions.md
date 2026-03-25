@@ -29,7 +29,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 ## Health Concerns & Misconceptions
 
 - [x] Will this diet raise my cholesterol? Is high LDL dangerous?
-- [ ] Is the animal-based diet safe for heart health?
+- [x] Is the animal-based diet safe for heart health?
 - [x] What about fiber? How does gut health work without vegetables?
 - [x] What supplements do I actually need?
 - [x] What are the different types of magnesium and which should I take?
