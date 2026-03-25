@@ -7,7 +7,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [x] What foods should I eat on the animal-based diet?
 - [x] What's the difference between animal-based and carnivore?
 - [x] What does a typical day of eating look like?
-- [ ] How do I eat animal-based on a budget?
+- [x] How do I eat animal-based on a budget?
 - [x] What fruits and carbs are allowed?
 - [ ] Where should I shop? (Costco, Aldi, Trader Joe's, Whole Foods)
 - [ ] What are some easy beginner-friendly recipes?
@@ -18,7 +18,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [x] Are seed oils really that bad? What does the science say?
 - [ ] Which specific products and brands should I avoid?
 - [ ] Which bottled water brands are safe vs. harmful?
-- [ ] What's wrong with vegetables? Which ones are the worst?
+- [x] What's wrong with vegetables? Which ones are the worst?
 - [x] Is dairy okay? What's wrong with conventional milk?
 - [ ] Which butter should I buy and which should I avoid?
 - [ ] Which olive oils are actually real and safe?
