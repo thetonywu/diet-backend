@@ -12,7 +12,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 
 ## Hormonal & Metabolic Health
 
-- [ ] Boost testosterone naturally
+- [x] Boost testosterone naturally
 - [ ] Optimize hormones broadly (thyroid, cortisol, estrogen, etc.)
 - [ ] Reverse insulin resistance
 - [ ] Improve thyroid health
