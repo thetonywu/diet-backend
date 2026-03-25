@@ -16,7 +16,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 ## Foods to Avoid & Why
 
 - [x] Are seed oils really that bad? What does the science say?
-- [ ] Which specific products and brands should I avoid?
+- [x] Which specific products and brands should I avoid?
 - [ ] Which bottled water brands are safe vs. harmful?
 - [x] What's wrong with vegetables? Which ones are the worst?
 - [x] Is dairy okay? What's wrong with conventional milk?
@@ -46,6 +46,6 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [ ] Is my water safe? What should I drink?
 - [ ] What's the best way to stay hydrated (beyond water)?
 - [ ] Are EMFs harmful? What about wireless headphones?
-- [ ] How much sun exposure do I need?
+- [x] How much sun exposure do I need?
 - [ ] What hygiene products are safe to use?
 - [ ] What about methylene blue and other supplements?
