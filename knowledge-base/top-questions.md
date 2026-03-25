@@ -22,7 +22,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [x] Is dairy okay? What's wrong with conventional milk?
 - [ ] Which butter should I buy and which should I avoid?
 - [ ] Which olive oils are actually real and safe?
-- [ ] Which fish should I eat and which should I avoid?
+- [x] Which fish should I eat and which should I avoid?
 - [ ] Are restaurant meals safe? What are the hidden dangers?
 - [ ] What are "fake health foods" I should watch out for?
 
@@ -36,7 +36,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [x] Should I take creatine? Why does Paul Saladino megadose it?
 - [x] Is colostrum worth taking?
 - [ ] Is European food actually better quality than American food?
-- [ ] What does my blood work mean on this diet?
+- [x] What does my blood work mean on this diet?
 
 ## Lifestyle & Toxins
 

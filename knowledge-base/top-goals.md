@@ -24,18 +24,18 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [ ] Reverse or prevent chronic disease
 - [ ] Improve heart health and prevent cardiovascular disease
 - [ ] Reduce cancer risk
-- [ ] Optimize blood work markers
+- [x] Optimize blood work markers
 
 ## Gut, Skin & Hair
 
 - [x] Fix gut health issues (bloating, IBS, leaky gut)
 - [ ] Improve hair growth and stop hair loss
 - [x] Clear up skin issues (acne, eczema, psoriasis)
-- [ ] Reduce inflammation
+- [x] Reduce inflammation
 
 ## Fertility & Women's Health
 
-- [ ] Improve male fertility
+- [x] Improve male fertility
 - [ ] Improve female fertility
 - [ ] Support a healthy pregnancy
 - [ ] Optimize postpartum recovery
@@ -45,8 +45,8 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 
 - [x] Sleep better and fall asleep faster
 - [x] Improve energy levels throughout the day
-- [ ] Improve mental clarity and focus
-- [ ] Reduce brain fog
+- [x] Improve mental clarity and focus
+- [x] Reduce brain fog
 - [ ] Improve mood and reduce anxiety/depression
 
 ## Detox & Clean Living
