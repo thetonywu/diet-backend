@@ -28,7 +28,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 
 ## Health Concerns & Misconceptions
 
-- [ ] Will this diet raise my cholesterol? Is high LDL dangerous?
+- [x] Will this diet raise my cholesterol? Is high LDL dangerous?
 - [ ] Is the animal-based diet safe for heart health?
 - [ ] What about fiber? How does gut health work without vegetables?
 - [ ] What supplements do I actually need?
