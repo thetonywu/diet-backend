@@ -5,7 +5,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 ## Body Composition & Performance
 
 - [x] Lose weight and get lean naturally
-- [ ] Build muscle and improve fitness
+- [x] Build muscle and improve fitness
 - [ ] Stay properly hydrated
 - [ ] Improve flexibility and mobility
 - [ ] Optimize exercise and recovery protocols
@@ -14,7 +14,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 
 - [x] Boost testosterone naturally
 - [ ] Optimize hormones broadly (thyroid, cortisol, estrogen, etc.)
-- [ ] Reverse insulin resistance
+- [x] Reverse insulin resistance
 - [ ] Improve thyroid health
 - [ ] Fix metabolic dysfunction
 
@@ -44,7 +44,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 ## Sleep & Mental Health
 
 - [x] Sleep better and fall asleep faster
-- [ ] Improve energy levels throughout the day
+- [x] Improve energy levels throughout the day
 - [ ] Improve mental clarity and focus
 - [ ] Reduce brain fog
 - [ ] Improve mood and reduce anxiety/depression
