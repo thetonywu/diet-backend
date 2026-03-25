@@ -19,7 +19,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [ ] Which specific products and brands should I avoid?
 - [ ] Which bottled water brands are safe vs. harmful?
 - [ ] What's wrong with vegetables? Which ones are the worst?
-- [ ] Is dairy okay? What's wrong with conventional milk?
+- [x] Is dairy okay? What's wrong with conventional milk?
 - [ ] Which butter should I buy and which should I avoid?
 - [ ] Which olive oils are actually real and safe?
 - [ ] Which fish should I eat and which should I avoid?
