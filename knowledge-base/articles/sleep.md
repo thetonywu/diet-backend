@@ -59,4 +59,4 @@ Poor sleep is one of the most common health complaints in the modern world, and 
 - [The Ultimate Guide to the Animal-Based Diet — Heart & Soil](https://heartandsoil.co/blog/the-ultimate-guide-to-the-animal-based-diet/) — sleep, glycine, and circadian rhythm recommendations
 - [Sleep Stack — Heart & Soil](https://shop.heartandsoil.co/products/sleep-stack) — organ-based supplement stack for sleep support
 - [Paul Saladino's Animal-Based Diet page](https://www.paulsaladinomd.com/animal-based-diet) — daily eating structure and carbohydrate guidelines
-- [Fundamental Health Podcast Ep. 192: What I Eat in a Day](https://www.youtube.com/watch?v=nGvzUavHlP0) — meal timing and circadian eating patterns
+- [Ep. 192: What I Eat in a Day — Fundamental Health Podcast](https://podcasts.apple.com/us/podcast/192-what-i-eat-in-a-day-detailed-nutritional-analysis/id1461771083?i=1000588966406) — meal timing and circadian eating patterns

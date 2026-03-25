@@ -1,6 +1,6 @@
 # How to Clear Up Skin Issues (Acne, Eczema, Psoriasis) on the Animal-Based Diet
 
-**Categories:** Gut Health, Nutrients
+**Categories:** Gut Health, Chronic Disease
 
 ## TLDR
 
