@@ -20,11 +20,11 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [x] Which bottled water brands are safe vs. harmful?
 - [x] What's wrong with vegetables? Which ones are the worst?
 - [x] Is dairy okay? What's wrong with conventional milk?
-- [ ] Which butter should I buy and which should I avoid?
-- [ ] Which olive oils are actually real and safe?
+- [x] Which butter should I buy and which should I avoid?
+- [x] Which olive oils are actually real and safe?
 - [x] Which fish should I eat and which should I avoid?
 - [x] Are restaurant meals safe? What are the hidden dangers?
-- [ ] What are "fake health foods" I should watch out for?
+- [x] What are "fake health foods" I should watch out for?
 
 ## Health Concerns & Misconceptions
 
