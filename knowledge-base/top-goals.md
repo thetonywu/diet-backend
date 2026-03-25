@@ -28,7 +28,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 
 ## Gut, Skin & Hair
 
-- [ ] Fix gut health issues (bloating, IBS, leaky gut)
+- [x] Fix gut health issues (bloating, IBS, leaky gut)
 - [ ] Improve hair growth and stop hair loss
 - [ ] Clear up skin issues (acne, eczema, psoriasis)
 - [ ] Reduce inflammation
