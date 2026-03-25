@@ -6,7 +6,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 
 - [x] Lose weight and get lean naturally
 - [x] Build muscle and improve fitness
-- [ ] Stay properly hydrated
+- [x] Stay properly hydrated
 - [ ] Improve flexibility and mobility
 - [ ] Optimize exercise and recovery protocols
 
@@ -36,10 +36,10 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 ## Fertility & Women's Health
 
 - [x] Improve male fertility
-- [ ] Improve female fertility
+- [x] Improve female fertility
 - [ ] Support a healthy pregnancy
 - [ ] Optimize postpartum recovery
-- [ ] Balance women's hormones
+- [x] Balance women's hormones
 
 ## Sleep & Mental Health
 
@@ -47,13 +47,13 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [x] Improve energy levels throughout the day
 - [x] Improve mental clarity and focus
 - [x] Reduce brain fog
-- [ ] Improve mood and reduce anxiety/depression
+- [x] Improve mood and reduce anxiety/depression
 
 ## Detox & Clean Living
 
 - [ ] Remove toxins from home and kitchen
 - [ ] Switch to non-toxic personal care and hygiene products
-- [ ] Reduce EMF exposure
-- [ ] Find safe water sources
+- [x] Reduce EMF exposure
+- [x] Find safe water sources
 - [ ] Live a more ancestral lifestyle
 - [ ] Reduce exposure to harmful chemicals in food supply
