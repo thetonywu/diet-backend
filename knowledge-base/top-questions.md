@@ -32,9 +32,9 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [ ] Is the animal-based diet safe for heart health?
 - [x] What about fiber? How does gut health work without vegetables?
 - [x] What supplements do I actually need?
-- [ ] What are the different types of magnesium and which should I take?
-- [ ] Should I take creatine? Why does Paul Saladino megadose it?
-- [ ] Is colostrum worth taking?
+- [x] What are the different types of magnesium and which should I take?
+- [x] Should I take creatine? Why does Paul Saladino megadose it?
+- [x] Is colostrum worth taking?
 - [ ] Is European food actually better quality than American food?
 - [ ] What does my blood work mean on this diet?
 
