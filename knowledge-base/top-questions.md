@@ -8,7 +8,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [x] What's the difference between animal-based and carnivore?
 - [x] What does a typical day of eating look like?
 - [ ] How do I eat animal-based on a budget?
-- [ ] What fruits and carbs are allowed?
+- [x] What fruits and carbs are allowed?
 - [ ] Where should I shop? (Costco, Aldi, Trader Joe's, Whole Foods)
 - [ ] What are some easy beginner-friendly recipes?
 - [ ] How do I meal prep on this diet?
