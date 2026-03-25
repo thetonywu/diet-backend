@@ -16,7 +16,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [ ] Optimize hormones broadly (thyroid, cortisol, estrogen, etc.)
 - [x] Reverse insulin resistance
 - [ ] Improve thyroid health
-- [ ] Fix metabolic dysfunction
+- [x] Fix metabolic dysfunction
 
 ## Longevity & Disease Prevention
 

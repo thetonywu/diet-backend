@@ -60,20 +60,20 @@ Most conventional fitness nutrition revolves around protein powders, calorie tra
 ## Key Points
 
 - Protein quality matters as much as quantity — grass-fed ruminant meat has a superior fatty acid profile compared to grain-fed chicken or pork
-- Insufficient carbohydrate intake "suppresses hormones, disrupts sleep, and causes muscle loss over time" — the opposite of what most low-carb advocates claim
-- Creatine is Saladino's #1 recommended supplement; its synthesis consumes ~50% of the body's daily methylation capacity, so supplementing frees resources for neurotransmitter production and DNA repair
-- Organ meats provide nutrients critical for athletic performance (CoQ10, heme iron, B12, carnitine) in their most bioavailable forms — he calls them "nature's multivitamin"
+- Insufficient carbohydrate intake "suppresses hormones, disrupts sleep, and causes muscle loss over time"
+- Creatine is Saladino's #1 supplement; its synthesis consumes ~50% of daily methylation capacity, so supplementing frees resources for neurotransmitter production
+- Organ meats provide nutrients critical for performance (CoQ10, heme iron, B12, carnitine) in their most bioavailable forms
 - Saladino opposes calorie counting — his framework is "fix the inputs and body composition follows"
-- He went from ~300 ng/dL testosterone on strict carnivore to 857 ng/dL at age 48 after adding fruit and honey — demonstrating that carbohydrates directly support the hormonal environment needed for muscle growth
+- He went from ~300 ng/dL testosterone on strict carnivore to 857 ng/dL at age 48 after adding fruit and honey
 
 ## Common Mistakes
 
 - **Going strict carnivore or keto for body composition** — very low-carb diets chronically elevate SHBG and cortisol while suppressing free testosterone, undermining muscle growth
-- **Relying on protein powders and multivitamins instead of whole food** — Saladino considers these synthetic supplements with industrial fillers unnecessary when eating properly
-- **Eating OMAD or extreme fasting while training** — suppresses testosterone and IGF-1, both critical for muscle protein synthesis
-- **Choosing chicken breast over beef for "lean protein"** — conventional chicken is high in linoleic acid and nutritionally inferior to ruminant meat
-- **Neglecting organ meats** — missing CoQ10 from heart, retinol from liver, and selenium from kidney means missing key cofactors for energy and hormone production
-- **Avoiding carbs around training** — fruit and honey before and after training support glycogen replenishment, cortisol management, and recovery
+- **Relying on protein powders and multivitamins** — Saladino considers these unnecessary when eating properly
+- **Eating OMAD or extreme fasting while training** — suppresses testosterone and IGF-1
+- **Choosing chicken breast over beef for "lean protein"** — conventional chicken is high in linoleic acid
+- **Neglecting organ meats** — missing CoQ10, retinol, and selenium means missing key cofactors for hormone production
+- **Avoiding carbs around training** — fruit and honey support glycogen replenishment and recovery
 
 ## Sources
 

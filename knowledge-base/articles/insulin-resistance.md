@@ -69,7 +69,7 @@ Saladino's central thesis is that excess linoleic acid (omega-6 fat) from seed o
 - **Substituting chicken for beef as a "healthier" protein** — conventional chicken has very high linoleic acid content in its fat
 - **Ignoring fasting insulin because fasting glucose is normal** — insulin resistance can be present for years before glucose dysregulation appears on labs
 - **Expecting immediate results** — because linoleic acid incorporates into cell membranes and fat tissue, full metabolic recovery takes months to years of consistent dietary change
-- **Avoiding fruit out of sugar fear** — whole-food fructose from fruit behaves differently than HFCS; Saladino cites evidence that it does not alter gut permeability or microbiota in healthy humans (PMC8358846)
+- **Avoiding fruit out of sugar fear** — whole-food fructose from fruit behaves differently than HFCS; Saladino cites evidence that it does not alter gut permeability or microbiota in healthy humans ([PMC8358846](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8358846/))
 
 ## Sources
 

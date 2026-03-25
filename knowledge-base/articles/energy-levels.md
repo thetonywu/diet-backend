@@ -14,50 +14,47 @@ Fatigue and low energy are among the most common complaints in modern health. Mo
 
 ### Remove what's draining energy
 
-- **Eliminate seed oils** — linoleic acid generates oxidative byproducts (aldehydes, lipid peroxides) that directly damage mitochondria, the energy-producing organelles in every cell. Saladino calls this "the most important lever to pull."
+- **Eliminate seed oils** — linoleic acid generates oxidative byproducts that directly damage mitochondria. Saladino calls this "the most important lever to pull."
 - **Eliminate processed foods** — these drive insulin resistance, meaning cells can't efficiently take up glucose for energy
-- **Stop drinking coffee** — Saladino does not drink coffee and does not recommend it. His energy comes from nutrient density, carbohydrates, and circadian alignment rather than stimulants. His morning drink: raw milk + raw honey + 5g creatine + sea salt.
+- **Stop drinking coffee** — Saladino does not drink coffee. His morning drink instead: raw milk + raw honey + 5g creatine + sea salt.
 
 ### Restore nutrient density
 
 Organ meats provide the specific cofactors mitochondria need to produce ATP:
 
-- **Heart**: CoQ10 — essential for the mitochondrial electron transport chain; statin drugs deplete CoQ10, which Saladino connects to chronic fatigue
-- **Liver** (0.5 oz/day): retinol, B12, copper, zinc, B vitamins — all required for energy metabolism and hormone synthesis
+- **Heart**: CoQ10 — essential for the electron transport chain
+- **Liver** (0.5 oz/day): retinol, B12, copper, zinc — required for energy metabolism
 - **Kidney**: selenium and B vitamins for thyroid function, which sets metabolic rate
-- Key nutrients found in animal foods but not plants: creatine, carnitine, choline, taurine, B12, vitamin K2
 
 ### Eat enough carbohydrates
 
-- At least **150g/day** of carbohydrates from fruit and honey, scaling up with activity level
-- Insufficient carbs chronically elevate cortisol (the body must manufacture glucose via gluconeogenesis), suppress serotonin and melatonin, and disrupt sleep — all of which tank daytime energy
-- Saladino personally experienced heart palpitations, insomnia, joint pain, and low testosterone on strict zero-carb carnivore — all resolved after adding ~300g/day of fruit and honey
-- Carbohydrates from fruit and honey support serotonin production, which converts to melatonin for restorative sleep — the foundation of daytime energy
+- At least **150g/day** from fruit and honey, scaling up with activity level
+- Insufficient carbs chronically elevate cortisol, suppress serotonin and melatonin, and disrupt sleep — all of which tank daytime energy
+- Saladino experienced insomnia, joint pain, and low testosterone on strict zero-carb carnivore — all resolved after adding ~300g/day of fruit and honey
 
 ### Align with circadian rhythm
 
-- **Morning sunlight first thing** — sets the internal clock for the entire day; primes melatonin release in the evening
-- **Block blue light 1–2 hours before bed** — screens, LED lights, and overhead fluorescents suppress melatonin
-- **Sleep 7–8 hours at consistent times** — non-negotiable; the brain releases hormones during sleep that regulate next-day energy
-- **Finish eating 2–3 hours before bed** — digestion during sleep reduces sleep quality
-- **Sleep in complete darkness** — any light exposure during sleep disrupts deep sleep cycles
+- **Morning sunlight first thing** — sets the internal clock; primes melatonin release in the evening
+- **Block blue light 1–2 hours before bed**
+- **Sleep 7–8 hours at consistent times**
+- **Finish eating 2–3 hours before bed**
+- **Sleep in complete darkness**
 
 ### Supplements for energy
 
 | Supplement | Dose | Mechanism |
 |---|---|---|
-| Creatine monohydrate (Lineage Provisions) | 5g/day | Frees 50% of methylation capacity; 5–15% cognitive improvement; better sleep quality |
+| Creatine monohydrate (Lineage Provisions) | 5g/day | Frees 50% of methylation capacity; 5–15% cognitive improvement |
 | Heart & Soil Beef Organs | 6 caps/day (ramp from 1) | CoQ10, heme iron, B12, L-carnitine, zinc, selenium |
-| Heart & Soil Warrior | 6 caps/day | Liver + heart specifically for CoQ10 and performance |
 | Magnesium glycinate or threonate | 200–400mg evening | GABA activity, muscle relaxation, sleep quality |
 | Redmond Sea Salt | ~2–3g sodium AM | Morning hydration and electrolyte support |
 
 ### What to avoid
 
-- **Methylene blue** — in a healthy electron transport chain, it actually decreases ATP production and inhibits MAO-A, risking serotonin syndrome. Saladino's quote: "Methylene blue is not the way to address metabolic dysfunction. The easy root cause solution is to cut out seed oils and processed sugars."
+- **Methylene blue** — decreases ATP in healthy mitochondria and inhibits MAO-A, risking serotonin syndrome
 - **Fish oil** — most products are oxidized/rancid and may be pro-inflammatory
 - **Multivitamins** — poor bioavailability forms with industrial fillers; unnecessary when eating organs
-- **Melatonin supplements** — he recommends supporting the body's own production through light management and carbohydrate intake instead
+- **Melatonin supplements** — support the body's own production through light management instead
 
 ## Key Points
 
@@ -65,9 +62,8 @@ Organ meats provide the specific cofactors mitochondria need to produce ATP:
 - Organ meats are the most concentrated dietary source of CoQ10, heme iron, B12, and carnitine — all direct mitochondrial fuel
 - Carbohydrate restriction causes chronic cortisol elevation, which suppresses energy, disrupts sleep, and impairs recovery
 - Saladino replaced coffee with raw milk + honey + creatine and reports better sustained energy without crashes
-- Sleep quality is the foundation of daytime energy; it requires adequate evening carbs, magnesium, darkness, and circadian alignment
-- Creatine supplementation frees up methylation capacity for neurotransmitter synthesis and DNA repair, improving both physical and cognitive energy
-- The animal-based diet simultaneously removes energy-draining inputs (seed oils, processed food) and restores energy-supporting inputs (organ nutrients, species-appropriate carbs, circadian alignment)
+- Sleep quality is the foundation of daytime energy; it requires adequate carbs, magnesium, darkness, and circadian alignment
+- Creatine supplementation frees methylation capacity for neurotransmitter synthesis, improving both physical and cognitive energy
 
 ## Common Mistakes
 
