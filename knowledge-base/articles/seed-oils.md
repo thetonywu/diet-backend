@@ -4,7 +4,7 @@
 
 ## TLDR
 
-Paul Saladino and other animal-based diet advocates consider seed oils to be among the most harmful components of the modern diet, primarily due to their high linoleic acid (omega-6 fat) content, which Saladino argues accumulates in the body, drives inflammation, and is "the biggest driver of chronic disease." He recommends completely eliminating them and replacing them with saturated fats from animal sources such as tallow, butter, and ghee.
+Paul Saladino considers seed oils to be among the most harmful components of the modern diet, primarily due to their high linoleic acid (omega-6 fat) content. He argues linoleic acid accumulates in body fat, drives inflammation, and is "the biggest driver of chronic disease." He recommends completely eliminating seed oils and replacing them with saturated fats from animal sources — tallow, butter, and ghee.
 
 ## Background
 

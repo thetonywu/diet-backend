@@ -28,10 +28,11 @@ His explanation: very low-carb diets chronically raise SHBG, which binds testost
 - **Raw dairy**: fat-soluble vitamins A, D, K2 plus saturated fat as hormone precursors; ~1 liter of raw milk daily in his own diet
 - **Fruit and honey**: carbohydrates to lower SHBG and keep cortisol in check; his own daily intake includes ~550g blueberries, 250g watermelon, 250g papaya, and ~10 tablespoons of raw honey
 
-**Carbohydrate targets by activity level** (from fruit and honey):
-- Low activity: ~150g/day
-- Moderate (3–6 hrs/week): 150–180g/day
-- High activity: up to 300g+/day (his own intake)
+**Carbohydrate targets by activity level** (grams per lb of goal body weight, from fruit and honey):
+- Low activity (0–3 hrs/week): 0.7–0.9g/lb
+- Moderate (3–6 hrs/week): 0.8–1.1g/lb
+- High (6–12 hrs/week): 1.0–1.5g/lb
+- Very high (12+ hrs/week): 1.2–1.7g/lb (Saladino's own intake is ~300g/day)
 
 **Key nutrients for testosterone:**
 - Zinc (liver, red meat)
