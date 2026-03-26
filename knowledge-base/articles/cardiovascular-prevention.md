@@ -1,90 +1,76 @@
-# How Do I Prevent Cardiovascular Disease?
+# How Do I Actively Prevent Cardiovascular Disease?
 
 **Categories:** Heart Disease, Nutrients
 
 ## TLDR
 
-Paul Saladino's cardiovascular prevention protocol targets insulin resistance and metabolic health rather than LDL cholesterol. He recommends eliminating seed oils, eating organ meats rich in CoQ10 and vitamin K2, tracking advanced biomarkers (fasting insulin, TG/HDL ratio, hsCRP, CAC score), and avoiding statins unless imaging confirms actual plaque. His own coronary artery calcium score is 0 despite an LDL of 533 mg/dL and a family history of heart attack at age 43.
+Beyond the safety argument covered in the heart health article, Paul Saladino outlines an active cardiovascular prevention protocol: advanced testing beyond standard lipid panels (oxidized LDL, linoleic acid content, endothelial function, visceral fat), specific lifestyle interventions (morning sunlight for nitric oxide, resistance training, oral health), targeted supplements (Heart & Soil Warrior for CoQ10, creatine, magnesium), and daily habits like bone broth for homocysteine reduction and walking around meals for blood glucose control.
 
 ## Background
 
-Heart disease remains the leading cause of death globally. The conventional prevention paradigm focuses on lowering LDL cholesterol through statins and reducing saturated fat intake. Saladino challenges this framework entirely, arguing that atherosclerosis is driven by insulin resistance and vascular inflammation — not by dietary saturated fat or total LDL. His prevention approach focuses on restoring metabolic health, providing cardioprotective nutrients from animal foods, and using advanced testing to assess actual cardiovascular risk rather than relying on standard lipid panels.
+The companion article on heart health safety covers Saladino's core argument: insulin resistance — not LDL — drives atherosclerosis, saturated fat does not cause heart disease, and standard lipid panels are the wrong tool for risk assessment. This article builds on that foundation with his actionable prevention protocol — the specific tests, foods, supplements, and lifestyle practices he recommends for actively reducing cardiovascular risk over a lifetime.
 
 ## What Paul Saladino Recommends
 
-**The mechanistic argument:**
-- Insulin resistance causes vascular inflammation, which damages the endothelium (arterial lining). LDL particles enter the damaged arterial wall as part of a repair response. Plaque only forms in the context of metabolic dysfunction.
-- Oxidized LDL — not native LDL — is the relevant risk factor. Linoleic acid from seed oils makes LDL particles more susceptible to oxidation.
-- Saturated fat does not cause heart disease. The diet-heart hypothesis (Ancel Keys) has been contradicted by the Minnesota Coronary Experiment, which showed that replacing saturated fat with vegetable oil lowered cholesterol but increased mortality.
+**Advanced testing protocol (beyond standard lipid panels):**
 
-**Cardioprotective diet:**
-- Eliminate all seed oils — this is the single most important step for cardiovascular prevention by reducing linoleic acid in LDL particles and restoring insulin sensitivity.
-- Eat grass-fed ruminant meat for the fatty acid profile: higher in CLA (conjugated linoleic acid), omega-3s, and lower in omega-6 compared to grain-fed.
-- Organ meats with specific cardiovascular benefits:
-  - Beef heart — richest natural source of CoQ10, essential for mitochondrial energy production in cardiac muscle.
-  - Liver — vitamin K2 (menaquinone), which directs calcium into bones and teeth and away from arterial walls. The Rotterdam Study found higher K2 intake associated with reduced cardiovascular mortality.
-  - Kidney — selenium for antioxidant defense and thyroid function.
-- Bone broth — glycine supports vascular integrity and reduces homocysteine.
-- Fruit and honey — 150–300g carbs/day to maintain insulin sensitivity and support healthy metabolic function.
-- Raw dairy if tolerated — additional K2 from grass-fed sources.
+Saladino recommends several markers not typically included in routine bloodwork. The basic markers (fasting insulin, TG, HDL, TG/HDL ratio, hsCRP, CAC scan) are covered in the heart health article. Additional prevention-specific tests include:
 
-**Advanced testing protocol:**
-- Fasting insulin (target < 5 μIU/mL, ideal < 3) — the most sensitive early marker of metabolic dysfunction and cardiovascular risk.
-- Triglycerides (target ≤ 70 mg/dL) and HDL (target ≥ 60 mg/dL).
-- TG/HDL ratio (target < 1.5) — a proxy for insulin resistance and LDL particle size.
-- hsCRP (target < 1 mg/L) — systemic inflammation marker.
-- Coronary artery calcium (CAC) scan — direct imaging of arterial plaque. Saladino recommends this before accepting a statin prescription.
-- Oxidized LDL (OxLDL) — the relevant lipid marker, not total LDL.
-- Linoleic acid content — whole blood below 18%, red blood cells below 5.2%.
-- Endothelial function testing (MaxPulse, EndoPAT) — measures vascular health directly.
-- DEXA scan for visceral fat assessment.
-- Fasting glucose and HbA1c.
+- Oxidized LDL (OxLDL) — the relevant lipid marker. Native LDL is not inherently atherogenic; oxidized LDL (primed by linoleic acid from seed oils) is what macrophages take up to form foam cells and plaque.
+- Linoleic acid content — whole blood below 18%, red blood cells below 5.2%. This directly measures how much seed oil-derived fat has accumulated in your tissues and lipoproteins.
+- Endothelial function testing (MaxPulse, EndoPAT) — measures vascular health directly rather than inferring it from lipid numbers. Endothelial damage is where atherosclerosis begins.
+- DEXA scan — visceral fat assessment. Visceral fat is metabolically active and drives insulin resistance independently of total body weight.
+- Homocysteine — elevated levels are an independent cardiovascular risk factor. Glycine from bone broth and B vitamins from liver help keep it in check.
 
-**Supplements for cardiovascular health:**
-- Heart & Soil Warrior — liver + heart for CoQ10 and exercise performance.
-- Heart & Soil Lifeblood — whole blood, spleen, liver for iron and oxygen delivery.
-- Creatine monohydrate 5g/day — supports cardiac muscle energy production and frees methylation capacity.
-- Magnesium glycinate or threonate 200–400mg/day — supports vascular relaxation and blood pressure regulation.
+**Daily cardiovascular nutrition protocol:**
+- Bone broth (1 cup/day) — glycine supports vascular integrity and helps reduce homocysteine, an independent cardiovascular risk factor not addressed by standard lipid management.
+- Fruit and honey (150–300g carbs/day) — maintains insulin sensitivity. Chronic carb restriction elevates cortisol, which contributes to vascular inflammation.
+- Raw dairy if tolerated — additional vitamin K2 from grass-fed sources for arterial calcium regulation.
 
-**Lifestyle factors:**
-- Resistance training — improves insulin sensitivity, vascular function, and body composition.
-- Daily walking — 15-minute walks around meals for blood glucose control.
-- Morning sunlight — triggers nitric oxide synthesis, which supports blood vessel dilation and blood pressure regulation.
-- Quality sleep — 7–8 hours with circadian alignment. Poor sleep independently increases cardiovascular risk.
-- Avoid chronic endurance exercise — may increase cardiac stress markers without the metabolic benefits of resistance training.
+**Supplements specifically for cardiovascular prevention:**
+- Heart & Soil Warrior (6 capsules/day) — liver + heart providing CoQ10 for cardiac muscle energy production. Especially important if you've ever taken statins, which deplete CoQ10 via mevalonate pathway blockade.
+- Heart & Soil Lifeblood (6 capsules/day) — whole blood, spleen, liver for iron and oxygen delivery to cardiac and vascular tissue.
+- Creatine monohydrate (5g/day) — supports cardiac muscle energy production and frees ~50% of daily methylation capacity for homocysteine metabolism and DNA repair.
+- Magnesium glycinate or threonate (200–400mg/day) — supports vascular smooth muscle relaxation and blood pressure regulation.
 
-**His position on statins:**
-- Statins increase insulin resistance and type 2 diabetes risk — potentially worsening the metabolic dysfunction that drives heart disease.
-- Statins block CoQ10 production, depleting the nutrient most critical for cardiac muscle function.
-- Statins may reduce GLP-1 levels and cause cognitive decline.
-- Never accept a statin prescription based solely on LDL numbers. Get a CAC scan first to determine whether actual plaque exists.
+**Lifestyle factors for cardiovascular prevention:**
+- Morning sunlight — triggers nitric oxide (NO) synthesis in the skin. NO is a vasodilator that supports healthy blood pressure and endothelial function. This benefit cannot be replicated by vitamin D supplementation alone.
+- Resistance training — improves insulin sensitivity, vascular function, and body composition. More cardiovascularly protective than chronic endurance exercise in Saladino's framework.
+- Daily walking — two or three 15-minute walks around meals specifically for blood glucose control, which directly protects endothelial function.
+- Quality sleep (7–8 hours, circadian-aligned) — poor sleep independently increases cardiovascular risk through cortisol elevation and insulin resistance.
+- Avoid chronic endurance exercise — may increase cardiac stress markers (troponin, BNP) without the metabolic benefits of resistance training.
+
+**Oral health as cardiovascular prevention:**
+- Avoid mouthwash. Oral bacteria are responsible for converting dietary nitrate into nitric oxide, which is critical for blood vessel dilation and blood pressure regulation. Mouthwash kills these bacteria, potentially raising blood pressure.
+- Poor oral hygiene is independently associated with cardiovascular disease through chronic low-grade inflammation.
+- Saladino uses a natural boar's hair toothbrush with water only — no fluoride toothpaste, no mouthwash.
 
 ## Key Points
 
-- Cardiovascular disease is driven by insulin resistance and metabolic dysfunction, not by dietary saturated fat or total LDL cholesterol.
-- Oxidized LDL — primed by linoleic acid from seed oils — is the relevant cardiovascular risk factor. Native LDL is not inherently atherogenic.
-- Seed oil elimination is the highest-leverage cardiovascular prevention intervention because it reduces LDL oxidation and restores insulin sensitivity simultaneously.
-- Beef heart is the richest natural source of CoQ10, which is essential for cardiac muscle function. Liver provides vitamin K2, which prevents arterial calcification.
-- The TG/HDL ratio is a better cardiovascular risk predictor than LDL for most people. A ratio below 1.5 indicates favorable metabolic health.
-- CAC scoring provides direct evidence of plaque and should be obtained before considering statin therapy.
-- Saladino's personal data — CAC score 0, clean CT angiography, LDL 533, family history of heart attack at 43 — is his primary evidence that metabolic health, not LDL levels, determines cardiovascular outcomes.
-- Morning sunlight triggers nitric oxide synthesis, supporting blood vessel dilation and healthy blood pressure.
-- Mouthwash destroys oral bacteria responsible for nitric oxide production, potentially raising blood pressure — an overlooked cardiovascular risk factor.
+- This article covers the active prevention protocol. For the mechanistic argument (why insulin resistance drives CVD, why saturated fat is safe, why statins are problematic), see the heart health safety article.
+- Oxidized LDL and linoleic acid content are more meaningful cardiovascular markers than total LDL. Request these from your doctor for a more accurate risk picture.
+- Endothelial function testing (MaxPulse, EndoPAT) directly measures the vascular health that standard lipid panels can only infer.
+- Morning sunlight triggers nitric oxide synthesis — a vasodilator that supports blood pressure regulation and endothelial health. This is a free, daily cardiovascular intervention.
+- Mouthwash destroys the oral bacteria responsible for nitric oxide production, potentially raising blood pressure — an overlooked cardiovascular risk factor.
+- Bone broth provides glycine, which supports vascular integrity and helps metabolize homocysteine — an independent cardiovascular risk factor.
+- Creatine supports cardiac muscle energy production and frees methylation capacity for homocysteine metabolism.
+- Fish oil, commonly taken for heart health, is typically oxidized beyond safe limits (83% of products exceed recommended peroxide levels). Eat whole fatty fish instead.
+- Visceral fat (measured by DEXA) drives insulin resistance independently of total body weight — a lean person with high visceral fat has elevated cardiovascular risk.
 
 ## Common Mistakes
 
-- **Focusing on LDL reduction instead of metabolic health.** A low LDL in a metabolically unhealthy person (high fasting insulin, high TG/HDL ratio) carries more risk than a high LDL in a metabolically healthy person.
-- **Accepting a statin based on LDL alone.** Without imaging (CAC scan, CT angiography), there is no evidence of actual plaque. Statins carry metabolic side effects that may worsen the underlying dysfunction.
-- **Avoiding saturated fat for heart health.** The diet-heart hypothesis has been contradicted by multiple studies. Grass-fed animal fats provide cardioprotective nutrients (K2, CLA, omega-3s) that plant oils do not.
-- **Using vegetable oil instead of butter "for the heart."** The Minnesota Coronary Experiment showed this swap increased mortality despite lowering cholesterol.
-- **Relying on standard lipid panels.** Total cholesterol and LDL alone are poor predictors of cardiovascular events. Request fasting insulin, TG/HDL ratio, hsCRP, and OxLDL for a meaningful risk assessment.
-- **Ignoring oral health.** Mouthwash kills nitric oxide-producing bacteria, and poor oral hygiene is independently associated with cardiovascular disease.
-- **Taking fish oil for heart health.** 83% of products are oxidized beyond recommended limits. Eat whole fatty fish instead.
+- **Only tracking standard lipid panels.** Total cholesterol and LDL-C alone miss oxidized LDL, linoleic acid burden, endothelial function, and visceral fat — all of which are more actionable prevention targets.
+- **Using mouthwash daily.** This destroys nitric oxide-producing oral bacteria, potentially undermining blood pressure regulation and vascular health.
+- **Skipping bone broth.** Glycine is difficult to get from muscle meat alone and directly supports vascular integrity and homocysteine metabolism.
+- **Doing only cardio for heart health.** Resistance training improves insulin sensitivity and vascular function more effectively than chronic endurance exercise in Saladino's framework.
+- **Taking fish oil for cardiovascular prevention.** Most commercial products are oxidized. Eat sardines, salmon, and mackerel instead.
+- **Ignoring morning sunlight.** Nitric oxide synthesis from sun exposure is a free daily intervention for blood pressure and endothelial health that cannot be replaced by supplements.
+- **Neglecting sleep.** Poor sleep elevates cortisol and worsens insulin resistance — directly increasing cardiovascular risk regardless of diet quality.
 
 ## Sources
 
-- [What Causes Heart Disease? The Truth About Cholesterol — Heart & Soil](https://heartandsoil.co/blog/what-causes-heart-disease-truth-about-cholesterol/) — cardiovascular mechanism, advanced testing protocols, endothelial function, and linoleic acid content targets
-- [Better Than TRT: How I Maintain 800+ Testosterone at 48 — Paul Saladino MD](https://www.paulsaladinomd.com/psmd-newsletters/better-than-trt-how-i-maintain-800-testosterone-at-48) — personal cardiovascular data and metabolic health protocol
-- ["Dangerously High" Cholesterol = Live to 100? — Paul Saladino MD](https://www.paulsaladinomd.com/psmd-newsletters/dangerously-high-cholesterol-live-to-100) — centenarian cholesterol data and longevity correlation
-- [Lab Work on an Animal-Based Diet — Heart & Soil](https://heartandsoil.co/blog/labwork-on-an-animal-based-diet/) — optimal cardiovascular biomarker ranges
-- [How Seed Oils Destroy Your Mitochondria — Heart & Soil](https://heartandsoil.co/blog/how-seed-oils-destroy-your-mitochondria-and-lead-to-chronic-disease-with-tucker-goodrich/) — seed oil mechanism for cardiovascular and metabolic damage
+- [What Causes Heart Disease? The Truth About Cholesterol — Heart & Soil](https://heartandsoil.co/blog/what-causes-heart-disease-truth-about-cholesterol/) — advanced testing protocols including OxLDL, linoleic acid content, and endothelial function testing
+- [Lab Work on an Animal-Based Diet — Heart & Soil](https://heartandsoil.co/blog/labwork-on-an-animal-based-diet/) — optimal cardiovascular biomarker ranges and testing recommendations
+- [Better Than TRT: How I Maintain 800+ Testosterone at 48 — Paul Saladino MD](https://www.paulsaladinomd.com/psmd-newsletters/better-than-trt-how-i-maintain-800-testosterone-at-48) — lifestyle and supplement protocol for metabolic and cardiovascular health
+- [How Seed Oils Destroy Your Mitochondria — Heart & Soil](https://heartandsoil.co/blog/how-seed-oils-destroy-your-mitochondria-and-lead-to-chronic-disease-with-tucker-goodrich/) — linoleic acid mechanism for LDL oxidation and cardiovascular damage
+- [Toxic Soup — Paul Saladino MD Newsletter](https://www.paulsaladinomd.com/psmd-newsletters/toxic-soup) — oral health and nitric oxide production connection
