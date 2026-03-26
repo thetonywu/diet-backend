@@ -8,7 +8,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [x] Build muscle and improve fitness
 - [x] Stay properly hydrated
 - [ ] Improve flexibility and mobility
-- [ ] Optimize exercise and recovery protocols
+- [x] Optimize exercise and recovery protocols
 
 ## Hormonal & Metabolic Health
 
@@ -20,7 +20,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 
 ## Longevity & Disease Prevention
 
-- [ ] Maximize lifespan and healthspan
+- [x] Maximize lifespan and healthspan
 - [ ] Reverse or prevent chronic disease
 - [ ] Improve heart health and prevent cardiovascular disease
 - [ ] Reduce cancer risk
@@ -52,7 +52,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 ## Detox & Clean Living
 
 - [ ] Remove toxins from home and kitchen
-- [ ] Switch to non-toxic personal care and hygiene products
+- [x] Switch to non-toxic personal care and hygiene products
 - [x] Reduce EMF exposure
 - [x] Find safe water sources
 - [ ] Live a more ancestral lifestyle
