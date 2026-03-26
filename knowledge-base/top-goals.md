@@ -7,7 +7,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [x] Lose weight and get lean naturally
 - [x] Build muscle and improve fitness
 - [x] Stay properly hydrated
-- [ ] Improve flexibility and mobility
+- [x] Improve flexibility and mobility
 - [x] Optimize exercise and recovery protocols
 
 ## Hormonal & Metabolic Health
@@ -21,9 +21,9 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 ## Longevity & Disease Prevention
 
 - [x] Maximize lifespan and healthspan
-- [ ] Reverse or prevent chronic disease
-- [ ] Improve heart health and prevent cardiovascular disease
-- [ ] Reduce cancer risk
+- [x] Reverse or prevent chronic disease
+- [x] Improve heart health and prevent cardiovascular disease
+- [x] Reduce cancer risk
 - [x] Optimize blood work markers
 
 ## Gut, Skin & Hair
@@ -55,5 +55,5 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [x] Switch to non-toxic personal care and hygiene products
 - [x] Reduce EMF exposure
 - [x] Find safe water sources
-- [ ] Live a more ancestral lifestyle
+- [x] Live a more ancestral lifestyle
 - [x] Reduce exposure to harmful chemicals in food supply
