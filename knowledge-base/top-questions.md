@@ -9,7 +9,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [x] What does a typical day of eating look like?
 - [x] How do I eat animal-based on a budget?
 - [x] What fruits and carbs are allowed?
-- [ ] Where should I shop? (Costco, Aldi, Trader Joe's, Whole Foods)
+- [x] Where should I shop? (Costco, Aldi, Trader Joe's, Whole Foods)
 - [ ] What are some easy beginner-friendly recipes?
 - [ ] How do I meal prep on this diet?
 
@@ -35,7 +35,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [x] What are the different types of magnesium and which should I take?
 - [x] Should I take creatine? Why does Paul Saladino megadose it?
 - [x] Is colostrum worth taking?
-- [ ] Is European food actually better quality than American food?
+- [x] Is European food actually better quality than American food?
 - [x] What does my blood work mean on this diet?
 
 ## Lifestyle & Toxins
@@ -47,5 +47,5 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [x] What's the best way to stay hydrated (beyond water)?
 - [x] Are EMFs harmful? What about wireless headphones?
 - [x] How much sun exposure do I need?
-- [ ] What hygiene products are safe to use?
+- [x] What hygiene products are safe to use?
 - [ ] What about methylene blue and other supplements?
