@@ -53,6 +53,6 @@ Saladino's position is that European food standards are generally superior to Am
 ## Sources
 
 - [Toxic Soup — Paul Saladino MD Newsletter](https://www.paulsaladinomd.com/psmd-newsletters/toxic-soup) — covers chemical exposures in American food and personal care products, including regulatory comparisons
-- [Fake Health Foods — Heart & Soil / Paul Saladino](https://heartandsoil.co/blog/the-ultimate-guide-to-the-animal-based-diet/) — discusses American cheese, HFCS, and other adulterated foods in the US supply
+- [The Ultimate Animal-Based Diet Food List — Heart & Soil](https://heartandsoil.co/blog/the-ultimate-animal-based-diet-food-list/) — food toxicity tiers, American cheese classification, and adulterated foods in the US supply
 - [The Ultimate Guide to the Animal-Based Diet — Heart & Soil](https://heartandsoil.co/blog/the-ultimate-guide-to-the-animal-based-diet/) — sourcing recommendations and food quality standards
 - [Seed Oils & Processed Foods: How They're Harming You — Paul Saladino MD](https://www.paulsaladinomd.com/psmd-newsletters/seed-oils-processed-foods-how-theyre-harming-you) — the industrial food system and its health impacts
