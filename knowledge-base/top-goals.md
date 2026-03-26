@@ -13,9 +13,9 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 ## Hormonal & Metabolic Health
 
 - [x] Boost testosterone naturally
-- [ ] Optimize hormones broadly (thyroid, cortisol, estrogen, etc.)
+- [x] Optimize hormones broadly (thyroid, cortisol, estrogen, etc.)
 - [x] Reverse insulin resistance
-- [ ] Improve thyroid health
+- [x] Improve thyroid health
 - [x] Fix metabolic dysfunction
 
 ## Longevity & Disease Prevention
@@ -38,7 +38,7 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 - [x] Improve male fertility
 - [x] Improve female fertility
 - [x] Support a healthy pregnancy
-- [ ] Optimize postpartum recovery
+- [x] Optimize postpartum recovery
 - [x] Balance women's hormones
 
 ## Sleep & Mental Health
@@ -51,9 +51,9 @@ Research compiled from Paul Saladino MD's YouTube channel, podcast, and online c
 
 ## Detox & Clean Living
 
-- [ ] Remove toxins from home and kitchen
+- [x] Remove toxins from home and kitchen
 - [x] Switch to non-toxic personal care and hygiene products
 - [x] Reduce EMF exposure
 - [x] Find safe water sources
 - [ ] Live a more ancestral lifestyle
-- [ ] Reduce exposure to harmful chemicals in food supply
+- [x] Reduce exposure to harmful chemicals in food supply
