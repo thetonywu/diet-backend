@@ -78,11 +78,11 @@ def _load_and_index() -> None:
 _load_and_index()
 
 
-def get_relevant_articles(query: str, top_n: int = 3) -> list[dict]:
+def get_relevant_articles(query: str, top_n: int = 3, min_score: float = 0.1) -> list[dict]:
     query_vec = _vectorizer.transform([query])
     scores = cosine_similarity(query_vec, _tfidf_matrix).flatten()
     top_indices = np.argsort(scores)[::-1][:top_n]
-    return [_articles[i] for i in top_indices if scores[i] > 0.0]
+    return [_articles[i] for i in top_indices if scores[i] >= min_score]
 
 
 def format_article_context(articles: list[dict]) -> str:
