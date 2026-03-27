@@ -16,7 +16,13 @@ def _get_config() -> tuple[str, str]:
     return _supabase_url, _supabase_key
 
 
-async def insert_chat_request(user_id: str, message: str, input: list[dict], response: str) -> None:
+async def insert_chat_request(
+    user_id: str,
+    message: str,
+    input: list[dict],
+    response: str,
+    matched_articles: list[dict] | None = None,
+) -> None:
     url, key = _get_config()
     async with httpx.AsyncClient() as client:
         await client.post(
@@ -26,5 +32,11 @@ async def insert_chat_request(user_id: str, message: str, input: list[dict], res
                 "Authorization": f"Bearer {key}",
                 "Content-Type": "application/json",
             },
-            json={"user_id": user_id, "message": message, "input": input, "response": response},
+            json={
+                "user_id": user_id,
+                "message": message,
+                "input": input,
+                "response": response,
+                "matched_articles": matched_articles,
+            },
         )

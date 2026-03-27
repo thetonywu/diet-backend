@@ -16,13 +16,13 @@ router = APIRouter()
 
 @router.post("/chat", response_model=ChatResponse)
 async def chat(request: Request, body: ChatRequest, user: dict | None = Depends(get_optional_user), _: None = Depends(rate_limit)):
-    reply = await get_reply(body.message, body.history)
+    reply, matched_articles = await get_reply(body.message, body.history)
 
     input_messages = [{"role": e.role, "content": e.content} for e in body.history]
 
     if user:
         asyncio.ensure_future(
-            _log_request(user["sub"], body.message, input_messages, reply)
+            _log_request(user["sub"], body.message, input_messages, reply, matched_articles)
         )
     else:
         ip = request.client.host if request.client else "unknown"
@@ -31,8 +31,8 @@ async def chat(request: Request, body: ChatRequest, user: dict | None = Depends(
     return ChatResponse(reply=reply)
 
 
-async def _log_request(user_id: str, message: str, input: list[dict], response: str) -> None:
+async def _log_request(user_id: str, message: str, input: list[dict], response: str, matched_articles: list[dict]) -> None:
     try:
-        await insert_chat_request(user_id, message, input, response)
+        await insert_chat_request(user_id, message, input, response, matched_articles)
     except Exception:
         logger.exception("Failed to log chat request")

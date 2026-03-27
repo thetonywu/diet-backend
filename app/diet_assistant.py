@@ -3,6 +3,7 @@ import os
 from openai import AsyncOpenAI
 
 from app.models import MessageEntry
+from app.retrieval import format_article_context, get_relevant_articles
 
 SYSTEM_PROMPT = """You are a knowledgeable and friendly animal-based diet assistant. 
 
@@ -71,21 +72,25 @@ def _mock_reply(message: str) -> str:
     return MOCK_RESPONSES["default"]
 
 
-async def get_reply(message: str, history: list[MessageEntry]) -> str:
+async def get_reply(message: str, history: list[MessageEntry]) -> tuple[str, list[dict]]:
     if not os.getenv("OPENAI_API_KEY"):
-        return _mock_reply(message)
+        return _mock_reply(message), []
 
     openai_client = _get_client()
+
+    articles = get_relevant_articles(message, top_n=3)
+    effective_prompt = SYSTEM_PROMPT + format_article_context(articles)
 
     input_messages = [{"role": entry.role, "content": entry.content} for entry in history]
     input_messages.append({"role": "user", "content": message})
 
     response = await openai_client.responses.create(
         model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
-        instructions=SYSTEM_PROMPT,
+        instructions=effective_prompt,
         input=input_messages,
         tools=[{"type": "web_search_preview"}],
         max_output_tokens=1024,
     )
 
-    return response.output_text
+    matched = [{"title": a["title"], "filename": a["filename"]} for a in articles]
+    return response.output_text, matched
