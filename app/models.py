@@ -9,14 +9,8 @@ class MessageEntry(BaseModel):
 class ChatRequest(BaseModel):
     message: str
     history: list[MessageEntry] = []
-    include_related_articles: bool = False
-
-
-class RelatedArticle(BaseModel):
-    title: str
-    filename: str
+    use_rag: bool = True
 
 
 class ChatResponse(BaseModel):
     reply: str
-    related_articles: list[RelatedArticle] | None = None

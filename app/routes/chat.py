@@ -6,7 +6,7 @@ from fastapi import APIRouter, Depends, Request
 from app.auth import get_optional_user
 from app.db import insert_chat_request
 from app.limiter import rate_limit
-from app.models import ChatRequest, ChatResponse, RelatedArticle
+from app.models import ChatRequest, ChatResponse
 from app.diet_assistant import get_reply
 
 logger = logging.getLogger(__name__)
@@ -16,7 +16,7 @@ router = APIRouter()
 
 @router.post("/chat", response_model=ChatResponse)
 async def chat(request: Request, body: ChatRequest, user: dict | None = Depends(get_optional_user), _: None = Depends(rate_limit)):
-    reply, matched_articles = await get_reply(body.message, body.history)
+    reply, matched_articles = await get_reply(body.message, body.history, body.use_rag)
 
     input_messages = [{"role": e.role, "content": e.content} for e in body.history]
 
@@ -28,11 +28,7 @@ async def chat(request: Request, body: ChatRequest, user: dict | None = Depends(
         ip = request.client.host if request.client else "unknown"
         logger.info("Logged-out chat from %s: %s", ip, body.message)
 
-    related_articles = None
-    if body.include_related_articles:
-        related_articles = [RelatedArticle(**a) for a in matched_articles]
-
-    return ChatResponse(reply=reply, related_articles=related_articles)
+    return ChatResponse(reply=reply)
 
 
 async def _log_request(user_id: str, message: str, input: list[dict], response: str, matched_articles: list[dict]) -> None:
