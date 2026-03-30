@@ -72,14 +72,18 @@ def _mock_reply(message: str) -> str:
     return MOCK_RESPONSES["default"]
 
 
-async def get_reply(message: str, history: list[MessageEntry]) -> tuple[str, list[dict]]:
+async def get_reply(message: str, history: list[MessageEntry], use_rag: bool = True) -> tuple[str, list[dict]]:
     if not os.getenv("OPENAI_API_KEY"):
         return _mock_reply(message), []
 
     openai_client = _get_client()
 
-    articles = get_relevant_articles(message, top_n=3)
-    effective_prompt = SYSTEM_PROMPT + format_article_context(articles)
+    if use_rag:
+        articles = get_relevant_articles(message, top_n=3)
+        effective_prompt = SYSTEM_PROMPT + format_article_context(articles)
+    else:
+        articles = []
+        effective_prompt = SYSTEM_PROMPT
 
     input_messages = [{"role": entry.role, "content": entry.content} for entry in history]
     input_messages.append({"role": "user", "content": message})

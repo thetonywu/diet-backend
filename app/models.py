@@ -9,6 +9,7 @@ class MessageEntry(BaseModel):
 class ChatRequest(BaseModel):
     message: str
     history: list[MessageEntry] = []
+    use_rag: bool = True
 
 
 class ChatResponse(BaseModel):

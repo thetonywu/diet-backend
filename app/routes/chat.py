@@ -16,7 +16,7 @@ router = APIRouter()
 
 @router.post("/chat", response_model=ChatResponse)
 async def chat(request: Request, body: ChatRequest, user: dict | None = Depends(get_optional_user), _: None = Depends(rate_limit)):
-    reply, matched_articles = await get_reply(body.message, body.history)
+    reply, matched_articles = await get_reply(body.message, body.history, body.use_rag)
 
     input_messages = [{"role": e.role, "content": e.content} for e in body.history]
 
