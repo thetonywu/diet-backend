@@ -1,15 +1,23 @@
 import glob
+import logging
 import os
 
 import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+from sentence_transformers import SentenceTransformer
 
 ARTICLES_DIR = os.path.join(os.path.dirname(__file__), "..", "knowledge-base", "articles")
+EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 
 _articles: list[dict] = []
-_vectorizer: TfidfVectorizer | None = None
-_tfidf_matrix = None
+_embeddings: np.ndarray | None = None
+_model: SentenceTransformer | None = None
+
+
+def _get_model() -> SentenceTransformer:
+    global _model
+    if _model is None:
+        _model = SentenceTransformer(EMBED_MODEL)
+    return _model
 
 
 def _parse_article(path: str) -> dict:
@@ -52,11 +60,9 @@ def _parse_article(path: str) -> dict:
 
 
 def _build_corpus_text(article: dict) -> str:
-    t = article["title"]
-    c = article["categories"]
     return (
-        f"{t} {t} {t} "
-        f"{c} {c} "
+        f"{article['title']} "
+        f"{article['categories']} "
         f"{article['tldr']} "
         f"{article['key_points']} "
         f"{article['recommendations']} "
@@ -65,23 +71,39 @@ def _build_corpus_text(article: dict) -> str:
 
 
 def _load_and_index() -> None:
-    global _articles, _vectorizer, _tfidf_matrix
+    global _articles, _embeddings
     paths = sorted(glob.glob(os.path.join(ARTICLES_DIR, "*.md")))
     if not paths:
         raise RuntimeError(f"No articles found in {ARTICLES_DIR}")
     _articles = [_parse_article(p) for p in paths]
+
     corpus = [_build_corpus_text(a) for a in _articles]
-    _vectorizer = TfidfVectorizer(stop_words="english", ngram_range=(1, 2), sublinear_tf=True)
-    _tfidf_matrix = _vectorizer.fit_transform(corpus)
+    logging.info("Loading embedding model %s...", EMBED_MODEL)
+    model = _get_model()
+    logging.info("Embedding %d articles...", len(corpus))
+    # bge models expect a prefix for passages
+    _embeddings = model.encode(
+        ["passage: " + t for t in corpus],
+        normalize_embeddings=True,
+        show_progress_bar=False,
+    )
+    logging.info("Article embeddings ready.")
+    # Warm up PyTorch thread pool and JIT to avoid slow first request
+    model.encode(["warmup"], normalize_embeddings=True, show_progress_bar=False)
 
 
-_load_and_index()
-
-
-def get_relevant_articles(query: str, top_n: int = 3, min_score: float = 0.1) -> list[dict]:
-    query_vec = _vectorizer.transform([query])
-    scores = cosine_similarity(query_vec, _tfidf_matrix).flatten()
+def get_relevant_articles(query: str, top_n: int = 3, min_score: float = 0.5) -> list[dict]:
+    model = _get_model()
+    # bge models expect a query prefix for queries
+    query_vec = model.encode(
+        ["query: " + query],
+        normalize_embeddings=True,
+        show_progress_bar=False,
+    )[0]
+    scores = _embeddings @ query_vec
     top_indices = np.argsort(scores)[::-1][:top_n]
+    top_scores = [(float(scores[i]), _articles[i]["filename"]) for i in top_indices]
+    logging.info("top candidates: %s", top_scores)
     return [_articles[i] for i in top_indices if scores[i] >= min_score]
 
 

@@ -1,4 +1,6 @@
+import logging
 import os
+import time
 
 from openai import AsyncOpenAI
 
@@ -79,7 +81,10 @@ async def get_reply(message: str, history: list[MessageEntry], use_rag: bool = T
     openai_client = _get_client()
 
     if use_rag:
+        rag_start = time.perf_counter()
         articles = get_relevant_articles(message, top_n=3)
+        logging.info("get_relevant_articles took %.3fs", time.perf_counter() - rag_start)
+        logging.info("matched articles: %s", [a["filename"] for a in articles])
         effective_prompt = SYSTEM_PROMPT + format_article_context(articles)
     else:
         articles = []
