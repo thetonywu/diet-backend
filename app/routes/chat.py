@@ -20,7 +20,7 @@ async def chat(request: Request, body: ChatRequest, user: dict | None = Depends(
 
     input_messages = [{"role": e.role, "content": e.content} for e in body.history]
 
-    if user:
+    if user and body.use_rag:
         asyncio.ensure_future(
             _log_request(user["sub"], body.message, input_messages, reply, matched_articles)
         )
