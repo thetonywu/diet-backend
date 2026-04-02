@@ -1,11 +1,9 @@
 import logging
-import os
 import time
 
-from openai import AsyncOpenAI
-
+from app.llm import get_llm
 from app.models import MessageEntry
-from app.retrieval import format_article_context, format_video_chunk_context, get_relevant_articles, get_relevant_video_chunks
+from app.retrieval import format_video_chunk_context, get_relevant_video_chunks
 
 SYSTEM_PROMPT = """You are a friendly animal-based diet expert. Speak as the expert — state information directly and confidently in your own voice.
 
@@ -25,19 +23,6 @@ When video clips are provided below, you MUST cite them. Pick the most relevant 
   "Grass-fed beef has [more fat-soluble vitamins](https://youtube.com/...) than grain-fed."
 The link must appear inside a sentence — never on its own line, never at the end. This is required on every response when clips are present.
 """
-
-client: AsyncOpenAI | None = None
-
-
-def _get_client() -> AsyncOpenAI:
-    global client
-    if client is None:
-        api_key = os.getenv("OPENAI_API_KEY")
-        if not api_key:
-            raise RuntimeError("OPENAI_API_KEY environment variable is not set")
-        client = AsyncOpenAI(api_key=api_key)
-    return client
-
 
 MOCK_RESPONSES = {
     "default": (
@@ -64,37 +49,22 @@ def _mock_reply(message: str) -> str:
 
 
 async def get_reply(message: str, history: list[MessageEntry], use_rag: bool = True) -> tuple[str, list[dict]]:
-    if not os.getenv("OPENAI_API_KEY"):
+    import os
+    if not os.getenv("OPENAI_API_KEY") and not os.getenv("ANTHROPIC_API_KEY"):
         return _mock_reply(message), []
-
-    openai_client = _get_client()
 
     if use_rag:
         rag_start = time.perf_counter()
         recent_context = " ".join(entry.content for entry in history[-2:]) + " " + message if len(history) >= 2 else message
-        # articles = get_relevant_articles(recent_context, top_n=3)
         video_chunks = get_relevant_video_chunks(recent_context, top_n=5)
-        logging.info("get_relevant_articles took %.3fs", time.perf_counter() - rag_start)
-        # logging.info("matched articles: %s", [a["filename"] for a in articles])
-        logging.info("matched video chunks: %s", [c["chunk_title"] for c in video_chunks])
-        # effective_prompt = SYSTEM_PROMPT + format_article_context(articles) + format_video_chunk_context(video_chunks)
-        effective_prompt = SYSTEM_PROMPT + format_video_chunk_context(video_chunks)
-        logging.info("effective_prompt:\n%s", effective_prompt)
+        logging.info("RAG took %.3fs, matched chunks: %s", time.perf_counter() - rag_start, [c["chunk_title"] for c in video_chunks])
+        system = SYSTEM_PROMPT + format_video_chunk_context(video_chunks)
     else:
-        articles = []
-        effective_prompt = SYSTEM_PROMPT
+        system = SYSTEM_PROMPT
 
-    input_messages = [{"role": entry.role, "content": entry.content} for entry in history]
-    input_messages.append({"role": "user", "content": message})
+    messages = [{"role": entry.role, "content": entry.content} for entry in history]
+    messages.append({"role": "user", "content": message})
 
-    response = await openai_client.responses.create(
-        model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
-        instructions=effective_prompt,
-        input=input_messages,
-        tools=[],
-        max_output_tokens=1024,
-    )
-
-    # matched = [{"title": a["title"], "filename": a["filename"]} for a in articles]
-    logging.info("response:\n%s", response.output_text)
-    return response.output_text, []
+    reply = await get_llm().complete(system, messages)
+    logging.info("response:\n%s", reply)
+    return reply, []
