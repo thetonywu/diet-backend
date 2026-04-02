@@ -97,6 +97,7 @@ def _load_video_chunks() -> None:
                 "video_title": video_title,
                 "chunk_title": chunk["title"],
                 "summary": chunk["summary"],
+                "transcript": chunk.get("transcript", ""),
                 "youtube_url": youtube_url,
             }
             flat.append(record)
@@ -173,9 +174,11 @@ def format_video_chunk_context(chunks: list[dict]) -> str:
     if not chunks:
         return ""
     lines = ["\n\n## Relevant Video Clips\n"]
-    lines.append("When your answer draws on one of these clips, include it as a Markdown link inline (e.g. [this clip](<url>)). Only link clips you actually reference.\n")
     for c in chunks:
-        lines.append(f"- **{c['chunk_title']}** (from \"{c['video_title']}\"): {c['summary']} [Watch]({c['youtube_url']})")
+        lines.append(f"### {c['chunk_title']} (from \"{c['video_title']}\")")
+        lines.append(f"[Watch clip]({c['youtube_url']})")
+        lines.append(c["transcript"])
+        lines.append("")
     return "\n".join(lines)
 
 

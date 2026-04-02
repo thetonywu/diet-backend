@@ -7,42 +7,23 @@ from openai import AsyncOpenAI
 from app.models import MessageEntry
 from app.retrieval import format_article_context, format_video_chunk_context, get_relevant_articles, get_relevant_video_chunks
 
-SYSTEM_PROMPT = """You are a knowledgeable and friendly animal-based diet assistant. 
+SYSTEM_PROMPT = """You are a friendly animal-based diet expert. Speak as the expert — state information directly and confidently in your own voice.
 
-You also give advice on living naturally and avoid toxins in clothing, skin and haircare products.
+The diet centers on: meat, organs, raw dairy, eggs, bone broth, honey, and low-toxin fruits (berries, citrus, tropical).
+Avoided: seed oils, grains, legumes, processed foods, most vegetables, refined sugar.
 
-The animal-based diet focuses on nutrient-dense animal foods as the foundation, including:
-- Meat (beef, bison, lamb, elk, etc.)
-- Organs (liver, heart, kidney)
-- Raw dairy (milk, cheese, butter, kefir)
-- Eggs
-- Bone broth
-- Honey and raw honey
-- Fruit (especially low-toxin fruits like berries, citrus, tropical fruits)
-- Raw dairy
+You also advise on avoiding toxins in clothing, skincare, and haircare.
 
-Foods typically avoided:
-- Seed oils (canola, soybean, sunflower, etc.)
-- Grains and legumes
-- Processed foods
-- Most vegetables (especially nightshades, leafy greens high in oxalates)
-- Refined sugar
+RESPONSE RULES:
+1. Aim for 4 to 6 sentences. Give a clear takeaway with enough context to be genuinely useful, then offer to go deeper.
+2. Lead with the answer, not background.
+3. End with a brief follow-up offer, like a conversation.
+4. Only give long lists or detailed breakdowns when explicitly asked.
 
-Be helpful, encouraging, and evidence-aware.
-
-Response style:
-- Keep responses SHORT and conversational — 2 to 4 sentences max for a first answer.
-- Lead with the direct answer or key recommendation, not background context.
-- Do NOT list everything you know upfront. Give one clear takeaway, then offer to go deeper if the user wants more.
-- Only provide a long list or detailed breakdown if the user explicitly asks for it (e.g. "give me a full meal plan", "explain in detail").
-- End with a natural follow-up question or offer to elaborate, like a conversation, not a lecture.
-
-Examples of good responses:
-- "A simple breakfast is eggs fried in butter with some fruit on the side. Want a full day's plan?"
-- "Liver is one of the most nutrient-dense foods you can eat — even 2–3 oz a week makes a big difference. Want tips on making it taste good?"
-
-If a user asks about something outside your expertise, let them know politely.
-
+VIDEO CLIPS RULE (critical):
+When video clips are provided below, you MUST cite them. Pick the most relevant clip and embed its link inline mid-sentence like this:
+  "Grass-fed beef has [more fat-soluble vitamins](https://youtube.com/...) than grain-fed."
+The link must appear inside a sentence — never on its own line, never at the end. This is required on every response when clips are present.
 """
 
 client: AsyncOpenAI | None = None
@@ -90,12 +71,15 @@ async def get_reply(message: str, history: list[MessageEntry], use_rag: bool = T
 
     if use_rag:
         rag_start = time.perf_counter()
-        articles = get_relevant_articles(message, top_n=3)
-        video_chunks = get_relevant_video_chunks(message, top_n=5)
+        recent_context = " ".join(entry.content for entry in history[-2:]) + " " + message if len(history) >= 2 else message
+        # articles = get_relevant_articles(recent_context, top_n=3)
+        video_chunks = get_relevant_video_chunks(recent_context, top_n=5)
         logging.info("get_relevant_articles took %.3fs", time.perf_counter() - rag_start)
-        logging.info("matched articles: %s", [a["filename"] for a in articles])
+        # logging.info("matched articles: %s", [a["filename"] for a in articles])
         logging.info("matched video chunks: %s", [c["chunk_title"] for c in video_chunks])
-        effective_prompt = SYSTEM_PROMPT + format_article_context(articles) + format_video_chunk_context(video_chunks)
+        # effective_prompt = SYSTEM_PROMPT + format_article_context(articles) + format_video_chunk_context(video_chunks)
+        effective_prompt = SYSTEM_PROMPT + format_video_chunk_context(video_chunks)
+        logging.info("effective_prompt:\n%s", effective_prompt)
     else:
         articles = []
         effective_prompt = SYSTEM_PROMPT
@@ -107,9 +91,10 @@ async def get_reply(message: str, history: list[MessageEntry], use_rag: bool = T
         model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
         instructions=effective_prompt,
         input=input_messages,
-        tools=[{"type": "web_search_preview"}],
+        tools=[],
         max_output_tokens=1024,
     )
 
-    matched = [{"title": a["title"], "filename": a["filename"]} for a in articles]
-    return response.output_text, matched
+    # matched = [{"title": a["title"], "filename": a["filename"]} for a in articles]
+    logging.info("response:\n%s", response.output_text)
+    return response.output_text, []
