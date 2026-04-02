@@ -5,7 +5,7 @@ import time
 from openai import AsyncOpenAI
 
 from app.models import MessageEntry
-from app.retrieval import format_article_context, get_relevant_articles
+from app.retrieval import format_article_context, format_video_chunk_context, get_relevant_articles, get_relevant_video_chunks
 
 SYSTEM_PROMPT = """You are a knowledgeable and friendly animal-based diet assistant. 
 
@@ -91,9 +91,11 @@ async def get_reply(message: str, history: list[MessageEntry], use_rag: bool = T
     if use_rag:
         rag_start = time.perf_counter()
         articles = get_relevant_articles(message, top_n=3)
+        video_chunks = get_relevant_video_chunks(message, top_n=5)
         logging.info("get_relevant_articles took %.3fs", time.perf_counter() - rag_start)
         logging.info("matched articles: %s", [a["filename"] for a in articles])
-        effective_prompt = SYSTEM_PROMPT + format_article_context(articles)
+        logging.info("matched video chunks: %s", [c["chunk_title"] for c in video_chunks])
+        effective_prompt = SYSTEM_PROMPT + format_article_context(articles) + format_video_chunk_context(video_chunks)
     else:
         articles = []
         effective_prompt = SYSTEM_PROMPT

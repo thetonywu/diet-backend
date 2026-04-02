@@ -1,4 +1,5 @@
 import glob
+import json
 import logging
 import os
 
@@ -6,11 +7,16 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 ARTICLES_DIR = os.path.join(os.path.dirname(__file__), "..", "knowledge-base", "articles")
+VIDEO_CHUNKS_DIR = os.path.join(os.path.dirname(__file__), "..", "knowledge-base", "video-chunks")
 EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 
 _articles: list[dict] = []
 _embeddings: np.ndarray | None = None
 _model: SentenceTransformer | None = None
+
+_video_chunks: list[dict] = []
+_video_embeddings: np.ndarray | None = None
+_video_chunk_index: dict[str, dict] = {}  # chunk_id -> chunk
 
 
 def _get_model() -> SentenceTransformer:
@@ -70,6 +76,45 @@ def _build_corpus_text(article: dict) -> str:
     )
 
 
+def _load_video_chunks() -> None:
+    global _video_chunks, _video_embeddings, _video_chunk_index
+    paths = sorted(glob.glob(os.path.join(VIDEO_CHUNKS_DIR, "*.json")))
+    if not paths:
+        logging.warning("No video chunk files found in %s", VIDEO_CHUNKS_DIR)
+        return
+
+    flat: list[dict] = []
+    for path in paths:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        video_title = data.get("title", "")
+        video_id = data.get("video_id", "")
+        for chunk in data.get("chunks", []):
+            chunk_id = f"{video_id}_{chunk['start_seconds']}"
+            youtube_url = chunk.get("youtube_url") or f"https://www.youtube.com/watch?v={video_id}&t={chunk['start_seconds']}s"
+            record = {
+                "chunk_id": chunk_id,
+                "video_title": video_title,
+                "chunk_title": chunk["title"],
+                "summary": chunk["summary"],
+                "youtube_url": youtube_url,
+            }
+            flat.append(record)
+
+    _video_chunks = flat
+    _video_chunk_index = {c["chunk_id"]: c for c in flat}
+
+    corpus = [f"{c['chunk_title']}. {c['summary']}" for c in flat]
+    model = _get_model()
+    logging.info("Embedding %d video chunks...", len(corpus))
+    _video_embeddings = model.encode(
+        ["passage: " + t for t in corpus],
+        normalize_embeddings=True,
+        show_progress_bar=False,
+    )
+    logging.info("Video chunk embeddings ready.")
+
+
 def _load_and_index() -> None:
     global _articles, _embeddings
     paths = sorted(glob.glob(os.path.join(ARTICLES_DIR, "*.md")))
@@ -81,13 +126,15 @@ def _load_and_index() -> None:
     logging.info("Loading embedding model %s...", EMBED_MODEL)
     model = _get_model()
     logging.info("Embedding %d articles...", len(corpus))
-    # bge models expect a prefix for passages
     _embeddings = model.encode(
         ["passage: " + t for t in corpus],
         normalize_embeddings=True,
         show_progress_bar=False,
     )
     logging.info("Article embeddings ready.")
+
+    _load_video_chunks()
+
     # Warm up PyTorch thread pool and JIT to avoid slow first request
     model.encode(["warmup"], normalize_embeddings=True, show_progress_bar=False)
 
@@ -105,6 +152,31 @@ def get_relevant_articles(query: str, top_n: int = 3, min_score: float = 0.5) ->
     top_scores = [(float(scores[i]), _articles[i]["filename"]) for i in top_indices]
     logging.info("top candidates: %s", top_scores)
     return [_articles[i] for i in top_indices if scores[i] >= min_score]
+
+
+def get_relevant_video_chunks(query: str, top_n: int = 5, min_score: float = 0.45) -> list[dict]:
+    if _video_embeddings is None or not _video_chunks:
+        return []
+    model = _get_model()
+    query_vec = model.encode(
+        ["query: " + query],
+        normalize_embeddings=True,
+        show_progress_bar=False,
+    )[0]
+    scores = _video_embeddings @ query_vec
+    top_indices = np.argsort(scores)[::-1][:top_n]
+    logging.info("top video chunks: %s", [(float(scores[i]), _video_chunks[i]["chunk_title"]) for i in top_indices])
+    return [_video_chunks[i] for i in top_indices if scores[i] >= min_score]
+
+
+def format_video_chunk_context(chunks: list[dict]) -> str:
+    if not chunks:
+        return ""
+    lines = ["\n\n## Relevant Video Clips\n"]
+    lines.append("When your answer draws on one of these clips, include it as a Markdown link inline (e.g. [this clip](<url>)). Only link clips you actually reference.\n")
+    for c in chunks:
+        lines.append(f"- **{c['chunk_title']}** (from \"{c['video_title']}\"): {c['summary']} [Watch]({c['youtube_url']})")
+    return "\n".join(lines)
 
 
 def format_article_context(articles: list[dict]) -> str:
