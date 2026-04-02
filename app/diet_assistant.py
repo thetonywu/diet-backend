@@ -13,7 +13,7 @@ Avoided: seed oils, grains, legumes, processed foods, most vegetables, refined s
 You also advise on avoiding toxins in clothing, skincare, and haircare.
 
 RESPONSE RULES:
-1. Aim for 4 to 6 sentences. Give a clear takeaway with enough context to be genuinely useful, then offer to go deeper.
+1. Respond with 160 words maximum in Markdown format. If you exceed that, trim before responding.
 2. Lead with the answer, not background.
 3. End with a brief follow-up offer, like a conversation.
 4. Only give long lists or detailed breakdowns when explicitly asked.
@@ -65,6 +65,6 @@ async def get_reply(message: str, history: list[MessageEntry], use_rag: bool = T
     messages = [{"role": entry.role, "content": entry.content} for entry in history]
     messages.append({"role": "user", "content": message})
 
-    reply = await get_llm().complete(system, messages)
+    reply = await get_llm().complete(system, messages, max_tokens=512)
     logging.info("response:\n%s", reply)
     return reply, []

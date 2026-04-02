@@ -11,7 +11,7 @@ from abc import ABC, abstractmethod
 
 class LLMProvider(ABC):
     @abstractmethod
-    async def complete(self, system: str, messages: list[dict], max_tokens: int = 1024) -> str:
+    async def complete(self, system: str, messages: list[dict], max_tokens: int) -> str:
         """
         messages: [{"role": "user"|"assistant", "content": "..."}]
         Returns the assistant reply as a string.
@@ -24,7 +24,7 @@ class OpenAIProvider(LLMProvider):
         self._client = AsyncOpenAI(api_key=os.environ["OPENAI_API_KEY"])
         self._model = os.getenv("OPENAI_MODEL", "gpt-4.1")
 
-    async def complete(self, system: str, messages: list[dict], max_tokens: int = 1024) -> str:
+    async def complete(self, system: str, messages: list[dict], max_tokens: int) -> str:
         resp = await self._client.chat.completions.create(
             model=self._model,
             messages=[{"role": "system", "content": system}, *messages],
@@ -39,7 +39,7 @@ class AnthropicProvider(LLMProvider):
         self._client = anthropic.AsyncAnthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
         self._model = os.getenv("ANTHROPIC_MODEL", "claude-haiku-4-5-20251001")
 
-    async def complete(self, system: str, messages: list[dict], max_tokens: int = 1024) -> str:
+    async def complete(self, system: str, messages: list[dict], max_tokens: int) -> str:
         resp = await self._client.messages.create(
             model=self._model,
             system=system,
