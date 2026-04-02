@@ -1,0 +1,2612 @@
+{
+  "brand": "Heart and Soil",
+  "brand_slug": "heart-and-soil",
+  "brand_url": "https://shop.heartandsoil.co",
+  "product_count": 64,
+  "products": [
+    {
+      "id": "seasonal-allergies-bundle-h-i-ffc",
+      "name": "Seasonal Allergy Bundle",
+      "slug": "seasonal-allergies-bundle-h-i-ffc",
+      "product_type": "Supplement",
+      "tags": [
+        "LUNA Email Order Boost Exclude",
+        "LUNA Product"
+      ],
+      "price_usd": 159.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/seasonal-allergies-bundle-h-i-ffc",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/HI_GFC.png?v=1772745050",
+      "description_text": "Spring allergies don't start in your sinuses, they start in your gut. This bundle is the complete approach. Formulated to seal the gut barrier, rebalance your immune system, and support healthy histamine breakdown so you can get ahead of allergy season instead of chasing it.",
+      "published_at": "2026-03-05T17:24:13-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "gut health",
+        "immune support",
+        "histamine breakdown"
+      ],
+      "health_goals": [
+        "seasonal allergies",
+        "immune imbalance",
+        "gut issues"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to proactively manage seasonal allergies through gut and immune support.",
+      "pairs_with": null
+    },
+    {
+      "id": "whole-package-her-package-bundle",
+      "name": "Whole Package + Her Package Bundle",
+      "slug": "whole-package-her-package-bundle",
+      "product_type": "Supplement",
+      "tags": [
+        "LUNA Email Order Boost Exclude",
+        "LUNA Product",
+        "LUNA Recommendation"
+      ],
+      "price_usd": 119.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/whole-package-her-package-bundle",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/WP_HP_Bundle.png?v=1770927679",
+      "description_text": "Two powerful supplements in one bundle designed for shared wellness. Whole Package supports male hormone, energy, and performance goals, while Her Package supports female hormonal balance, menstrual comfort, and vitality. Premium organ-based nutrition for daily support.",
+      "published_at": "2026-02-06T11:08:00-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "male hormone support",
+        "energy",
+        "performance",
+        "female hormonal balance",
+        "menstrual comfort",
+        "vitality"
+      ],
+      "health_goals": [
+        "hormone balance",
+        "low energy",
+        "menstrual discomfort"
+      ],
+      "format": "bundle",
+      "best_for": "Ideal for couples seeking comprehensive hormonal and energy support.",
+      "pairs_with": null
+    },
+    {
+      "id": "free-form-grass-fed-colostrum",
+      "name": "Grass-Fed Colostrum",
+      "slug": "free-form-grass-fed-colostrum",
+      "product_type": "Supplement",
+      "tags": [
+        "allergies",
+        "autoimmune-issues",
+        "boost:upsell:hide",
+        "digestive-health",
+        "exercise-recovery",
+        "growaov-collection",
+        "growaov-subscription",
+        "histamine-intolerance",
+        "igg24_for_skincare_lovers",
+        "immune-support",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "supplement"
+      ],
+      "price_usd": 119.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/free-form-grass-fed-colostrum",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/Heart_Soil_Colostrum.webp?v=1772120437",
+      "description_text": "Grass-Fed Colostrum is a complete whole food. Known as nature\u2019s \u201cfirst milk\u201d, it supports gut health, immune system function, and exercise recovery by delivering bioavailable nutrients and growth factors sourced from premium-quality, 100% grass-fed cattle.\u2020",
+      "published_at": "2025-12-22T09:57:07-06:00",
+      "ingredients": [
+        "Grass-Fed Colostrum"
+      ],
+      "key_nutrients": [
+        "Growth Factors"
+      ],
+      "benefits": [
+        "gut health",
+        "immune system function",
+        "exercise recovery"
+      ],
+      "health_goals": [
+        "digestive health",
+        "immune support",
+        "exercise recovery"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals looking to support their gut health, immune system, and recovery from exercise.",
+      "pairs_with": null
+    },
+    {
+      "id": "thyroid-health-stack",
+      "name": "Thyroid Health Stack",
+      "slug": "thyroid-health-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "LUNA Product",
+        "LUNA Recommendation",
+        "stacks",
+        "thyroid-health"
+      ],
+      "price_usd": 176.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/thyroid-health-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/Thyroid-Health-Stack-Photo1.png?v=1759762891",
+      "description_text": "This stack supports healthy thyroid function, sustained energy, gut-thyroid axis support, metabolic balance, and mental clarity by delivering bioavailable nutrients sourced from premium-quality, 100% grass-fed organs.\u2020 1x Thyroid+ 1x Gut & Digestion 1x Beef Organs",
+      "published_at": "2025-09-25T14:35:06-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "thyroid function",
+        "sustained energy",
+        "gut-thyroid axis support",
+        "metabolic balance",
+        "mental clarity"
+      ],
+      "health_goals": [
+        "thyroid health",
+        "low energy",
+        "gut issues",
+        "metabolic balance"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to support their thyroid health and overall metabolic function.",
+      "pairs_with": null
+    },
+    {
+      "id": "grass-fed-thyroid",
+      "name": "Grass-Fed Thyroid+",
+      "slug": "grass-fed-thyroid",
+      "product_type": "Supplement",
+      "tags": [
+        "LUNA Product",
+        "LUNA Recommendation",
+        "test"
+      ],
+      "price_usd": 56.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/grass-fed-thyroid",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/GFT-Gallery-Photo1.webp?v=1771349770",
+      "description_text": "Grass-Fed Thyroid+ is specifically formulated to support healthy thyroid function, metabolic efficiency, energy, and overall well-being by delivering bioavailable nutrients sourced from premium-quality, 100% grass-fed thyroid tissue, liver, and kidney .\u2020",
+      "published_at": "2025-09-15T11:12:16-05:00",
+      "ingredients": [
+        "Grass-Fed Thyroid",
+        "Liver",
+        "Kidney"
+      ],
+      "key_nutrients": null,
+      "benefits": [
+        "thyroid function",
+        "metabolic efficiency",
+        "energy",
+        "overall well-being"
+      ],
+      "health_goals": [
+        "thyroid issues",
+        "low energy",
+        "metabolic support"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals looking to support their thyroid function and boost energy levels.",
+      "pairs_with": null
+    },
+    {
+      "id": "grass-fed-whey-unflavored",
+      "name": "Grass-Fed Whey Unflavored",
+      "slug": "grass-fed-whey-unflavored",
+      "product_type": "Supplement",
+      "tags": [
+        "energy",
+        "exercise-performance",
+        "igg24_for_skincare_lovers",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "supplement"
+      ],
+      "price_usd": 68.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/grass-fed-whey-unflavored",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/hs-gfw-1.webp?v=1771351216",
+      "description_text": "Grass-Fed Whey is a cold-processed, NSF Certified for Sport\u00ae protein powder made from 100% grass-fed Australian cows \u2014 with absolutely nothing artificial. Designed for high-performers who demand more from their nutrition, it delivers fast-absorbing protein and uncompromising purity to fuel performance and recovery. Available in Unflavored and Chocolate Sea Salt No added hormones, fillers, gums, or lecithins NSF Certified for Sport\u00ae and 100% grass-fed Independently tested for heavy metals, pesticides & impurities 100% plastic-free packaging (including the scoop!)",
+      "published_at": "2025-07-31T15:28:51-05:00",
+      "ingredients": [
+        "Grass-Fed Whey"
+      ],
+      "key_nutrients": [
+        "Protein"
+      ],
+      "benefits": [
+        "energy",
+        "exercise performance",
+        "recovery"
+      ],
+      "health_goals": [
+        "low energy",
+        "exercise performance",
+        "muscle recovery"
+      ],
+      "format": "powder",
+      "best_for": "High-performers seeking a pure, fast-absorbing protein source for enhanced performance and recovery.",
+      "pairs_with": null
+    },
+    {
+      "id": "grass-fed-whey-chocolate-sea-salt",
+      "name": "Grass-Fed Whey Chocolate Sea Salt",
+      "slug": "grass-fed-whey-chocolate-sea-salt",
+      "product_type": "Supplement",
+      "tags": [
+        "energy",
+        "exercise-performance",
+        "igg24_for_skincare_lovers",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "supplement"
+      ],
+      "price_usd": 72.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/grass-fed-whey-chocolate-sea-salt",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/hs-gfw-1_28c5c65a-97fb-457e-ba97-626054d5598c.webp?v=1771351416",
+      "description_text": "Grass-Fed Whey is a cold-processed, NSF Certified for Sport\u00ae protein powder made from 100% grass-fed Australian cows \u2014 with absolutely nothing artificial. Designed for high-performers who demand more from their nutrition, it delivers fast-absorbing protein and uncompromising purity to fuel performance and recovery. Available in Unflavored and Chocolate Sea Salt No added hormones, fillers, gums, or lecithins NSF Certified for Sport\u00ae and 100% grass-fed Independently tested for heavy metals, pesticides & impurities 100% plastic-free packaging (including the scoop!)",
+      "published_at": "2025-07-31T15:28:37-05:00",
+      "ingredients": [
+        "Grass-Fed Whey"
+      ],
+      "key_nutrients": [
+        "Protein"
+      ],
+      "benefits": [
+        "energy",
+        "exercise performance",
+        "recovery"
+      ],
+      "health_goals": [
+        "low energy",
+        "exercise performance",
+        "muscle recovery"
+      ],
+      "format": "powder",
+      "best_for": "Ideal for high-performers seeking a pure, fast-absorbing protein source to fuel performance and recovery.",
+      "pairs_with": null
+    },
+    {
+      "id": "ab30stack",
+      "name": "AB30 Stack",
+      "slug": "ab30stack",
+      "product_type": "",
+      "tags": [
+        "boost:hide",
+        "boost:upsell:hide",
+        "growaov-ignore",
+        "luna-sync"
+      ],
+      "price_usd": 131.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/ab30stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/HS-AB30STACK.webp?v=1766081978",
+      "description_text": "BUILD YOUR AB30 STACK AND UNLOCK YOUR POTENTIAL To help you light up your AB30 and stay consistent, we\u2019re adding a FREE bottle of Fire Starter when you pick your foundation and targeted support. Fire Starter delivers pure, grass-fed tallow \u2014 a highly bioavailable source of energy and nourishment that supports metabolism, satiety, and clean fuel throughout your day.",
+      "published_at": "2025-07-15T09:20:10-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "energy",
+        "metabolism support",
+        "satiety"
+      ],
+      "health_goals": [
+        "low energy",
+        "metabolic support"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to enhance their AB30 routine with additional energy and metabolic support.",
+      "pairs_with": null
+    },
+    {
+      "id": "pure-american-liver-foj",
+      "name": "Pure American Liver - Fourth of July",
+      "slug": "pure-american-liver-foj",
+      "product_type": "Supplement",
+      "tags": [
+        "boost:upsell:hide",
+        "energy",
+        "exercise-performance",
+        "exercise-recovery",
+        "igg24_for_kids",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "noindex",
+        "supplement"
+      ],
+      "price_usd": 47.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/pure-american-liver-foj",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/HS-PAL-FOJ-Featured-1-min.jpg?v=1762199831",
+      "description_text": "Celebrated as nature\u2019s most nutrient-dense superfood, & embodying the spirit of America, Pure American Liver is your daily nutritional foundation for overall health.",
+      "published_at": "2025-06-24T14:41:43-05:00",
+      "ingredients": [
+        "Beef Liver"
+      ],
+      "key_nutrients": [
+        "Vitamin A",
+        "Iron",
+        "B Vitamins"
+      ],
+      "benefits": [
+        "energy",
+        "exercise performance",
+        "exercise recovery"
+      ],
+      "health_goals": [
+        "low energy",
+        "exercise recovery",
+        "overall health"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals looking to boost energy and improve exercise performance and recovery.",
+      "pairs_with": null
+    },
+    {
+      "id": "delivery-guarantee",
+      "name": "Delivery Guarantee",
+      "slug": "delivery-guarantee",
+      "product_type": "Delivery Guarantee",
+      "tags": [
+        "boost:upsell:hide",
+        "Corso",
+        "Delivery Guarantee",
+        "LUNA Product",
+        "luna-sync",
+        "Shipping Protection"
+      ],
+      "price_usd": 1.25,
+      "variants": [
+        {
+          "title": "GSP-125",
+          "price_usd": 1.25,
+          "sku": "SP-T2-0025",
+          "available": true
+        },
+        {
+          "title": "GSP-169",
+          "price_usd": 1.69,
+          "sku": "SP-T2-5075",
+          "available": true
+        },
+        {
+          "title": "GSP-373",
+          "price_usd": 3.73,
+          "sku": "SP-T2-150200",
+          "available": true
+        },
+        {
+          "title": "GSP-476",
+          "price_usd": 4.76,
+          "sku": "SP-T2-200250",
+          "available": true
+        },
+        {
+          "title": "GSP-950",
+          "price_usd": 9.5,
+          "sku": "SP-T2-450500",
+          "available": true
+        },
+        {
+          "title": "GSP-1050",
+          "price_usd": 10.5,
+          "sku": "SP-T2-500550",
+          "available": true
+        },
+        {
+          "title": "GSP-1250",
+          "price_usd": 12.5,
+          "sku": "SP-T2-600650",
+          "available": true
+        },
+        {
+          "title": "GSP-1350",
+          "price_usd": 13.5,
+          "sku": "SP-T2-650700",
+          "available": true
+        },
+        {
+          "title": "GSP-1550",
+          "price_usd": 15.5,
+          "sku": "SP-T2-750800",
+          "available": true
+        },
+        {
+          "title": "GSP-1650",
+          "price_usd": 16.5,
+          "sku": "SP-T2-800850",
+          "available": true
+        },
+        {
+          "title": "GSP-1750",
+          "price_usd": 17.5,
+          "sku": "SP-T2-850900",
+          "available": true
+        },
+        {
+          "title": "GSP-1850",
+          "price_usd": 18.5,
+          "sku": "SP-T2-900950",
+          "available": true
+        },
+        {
+          "title": "GSP-1950",
+          "price_usd": 19.5,
+          "sku": "SP-T2-9501000",
+          "available": true
+        },
+        {
+          "title": "GSP-2500",
+          "price_usd": 25.0,
+          "sku": "SP-T2-10001250",
+          "available": true
+        },
+        {
+          "title": "GSP-3000",
+          "price_usd": 30.0,
+          "sku": "SP-T2-12501500",
+          "available": true
+        },
+        {
+          "title": "GSP-3500",
+          "price_usd": 35.0,
+          "sku": "SP-T2-15001750",
+          "available": true
+        },
+        {
+          "title": "GSP-4000",
+          "price_usd": 40.0,
+          "sku": "SP-T2-17502000",
+          "available": true
+        },
+        {
+          "title": "GSP-149",
+          "price_usd": 1.49,
+          "sku": "SP-T2-2550",
+          "available": true
+        },
+        {
+          "title": "GSP-209",
+          "price_usd": 2.09,
+          "sku": "SP-T2-75100",
+          "available": true
+        },
+        {
+          "title": "GSP-279",
+          "price_usd": 2.79,
+          "sku": "SP-T2-100150",
+          "available": true
+        },
+        {
+          "title": "GSP-560",
+          "price_usd": 5.6,
+          "sku": "SP-T2-250300",
+          "available": true
+        },
+        {
+          "title": "GSP-655",
+          "price_usd": 6.55,
+          "sku": "SP-T2-300350",
+          "available": true
+        },
+        {
+          "title": "GSP-750",
+          "price_usd": 7.5,
+          "sku": "SP-T2-350400",
+          "available": true
+        },
+        {
+          "title": "GSP-850",
+          "price_usd": 8.5,
+          "sku": "SP-T2-400450",
+          "available": true
+        },
+        {
+          "title": "GSP-1150",
+          "price_usd": 11.5,
+          "sku": "SP-T2-550600",
+          "available": true
+        },
+        {
+          "title": "GSP-1450",
+          "price_usd": 14.5,
+          "sku": "SP-T2-700750",
+          "available": true
+        }
+      ],
+      "url": "https://shop.heartandsoil.co/products/delivery-guarantee",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/Default_20box.png?v=1762199733",
+      "description_text": "Delivery Guarantee with award-winning service by the Corso Concierge for any shipping issue such as lost, damaged, or stolen packages",
+      "published_at": "2025-05-15T14:51:52-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": null,
+      "best_for": null,
+      "pairs_with": null
+    },
+    {
+      "id": "square-heart-soil-sticker",
+      "name": "Square - Reclaim your Birthright Sticker",
+      "slug": "square-heart-soil-sticker",
+      "product_type": "",
+      "tags": [
+        "boost:hide",
+        "luna-sync",
+        "noindex"
+      ],
+      "price_usd": 0.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/square-heart-soil-sticker",
+      "image_url": null,
+      "description_text": "Square - Brown Sticker",
+      "published_at": "2025-04-09T15:52:03-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": null,
+      "best_for": null,
+      "pairs_with": null
+    },
+    {
+      "id": "circle-heart-soil-sticker",
+      "name": "Circle - Heart & Soil Sticker",
+      "slug": "circle-heart-soil-sticker",
+      "product_type": "",
+      "tags": [
+        "boost:hide",
+        "luna-sync",
+        "noindex"
+      ],
+      "price_usd": 0.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/circle-heart-soil-sticker",
+      "image_url": null,
+      "description_text": "Circle Heart & Soil Sticker",
+      "published_at": "2025-04-09T12:24:00-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": null,
+      "best_for": null,
+      "pairs_with": null
+    },
+    {
+      "id": "green-heart-soil-sticker",
+      "name": "Green Heart & Soil Sticker",
+      "slug": "green-heart-soil-sticker",
+      "product_type": "",
+      "tags": [
+        "boost:hide",
+        "luna-sync",
+        "noindex"
+      ],
+      "price_usd": 0.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/green-heart-soil-sticker",
+      "image_url": null,
+      "description_text": "Green Heart & Soil Sticker",
+      "published_at": "2025-04-09T12:19:52-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": null,
+      "best_for": null,
+      "pairs_with": null
+    },
+    {
+      "id": "horizontal-heart-soil-logo-sticker",
+      "name": "Horizontal - Heart & Soil Logo Sticker",
+      "slug": "horizontal-heart-soil-logo-sticker",
+      "product_type": "",
+      "tags": [
+        "boost:hide",
+        "luna-sync",
+        "noindex"
+      ],
+      "price_usd": 0.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/horizontal-heart-soil-logo-sticker",
+      "image_url": null,
+      "description_text": "Long Heart & Soil Sticker",
+      "published_at": "2025-04-09T12:18:14-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": null,
+      "best_for": null,
+      "pairs_with": null
+    },
+    {
+      "id": "free-firestarter",
+      "name": "Free Firestarter",
+      "slug": "free-firestarter",
+      "product_type": "Supplement",
+      "tags": [
+        "boost:hide",
+        "luna-sync"
+      ],
+      "price_usd": 0.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/free-firestarter",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/Fire-Starter_e5ed66a1-5eb2-46b5-9db1-ac43897e92a0.png?v=1762207541",
+      "description_text": "Spark your weight loss. Targeted support for fat burning, appetite control, and nutrient absorption.",
+      "published_at": "2025-01-23T18:11:40-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "fat burning",
+        "appetite control",
+        "nutrient absorption"
+      ],
+      "health_goals": [
+        "weight loss"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals looking to support their weight loss journey with targeted fat burning and appetite control.",
+      "pairs_with": null
+    },
+    {
+      "id": "exercise-performance-stack",
+      "name": "Exercise Performance Stack",
+      "slug": "exercise-performance-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "exercise-performance",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "stacks"
+      ],
+      "price_usd": 176.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/exercise-performance-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/main-1_a6e13960-05fe-4ed3-9b96-27f83dce24f1.jpg?v=1762199324",
+      "description_text": null,
+      "published_at": "2024-11-18T11:19:52-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "exercise performance"
+      ],
+      "health_goals": [
+        "improve exercise performance"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to enhance their exercise performance with a comprehensive supplement stack.",
+      "pairs_with": null
+    },
+    {
+      "id": "skin-hair-nails-stack",
+      "name": "Skin, Hair & Nails Stack",
+      "slug": "skin-hair-nails-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "hair-skin-nails",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "stacks"
+      ],
+      "price_usd": 159.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/skin-hair-nails-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/main-1.jpg?v=1762198896",
+      "description_text": null,
+      "published_at": "2024-11-18T11:12:31-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "skin health",
+        "hair growth",
+        "nail strength"
+      ],
+      "health_goals": [
+        "dull skin",
+        "hair thinning",
+        "brittle nails"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to improve the health and appearance of their skin, hair, and nails.",
+      "pairs_with": null
+    },
+    {
+      "id": "energy-stack",
+      "name": "Energy Stack",
+      "slug": "energy-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "energy",
+        "growaov-collection",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "prenatal-health",
+        "stacks"
+      ],
+      "price_usd": 131.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/energy-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/energy-v2-featured.png?v=1762198898",
+      "description_text": null,
+      "published_at": "2024-10-29T09:46:49-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "energy"
+      ],
+      "health_goals": [
+        "low energy",
+        "prenatal health"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to boost their energy levels and support prenatal health.",
+      "pairs_with": null
+    },
+    {
+      "id": "prenatal-health-stack",
+      "name": "Prenatal Health Stack",
+      "slug": "prenatal-health-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "prenatal-health",
+        "stacks"
+      ],
+      "price_usd": 203.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/prenatal-health-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/prenatal-v2-primary-min.jpg?v=1762198897",
+      "description_text": null,
+      "published_at": "2024-10-28T11:55:54-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "prenatal support",
+        "nutrient intake"
+      ],
+      "health_goals": [
+        "pregnancy health",
+        "prenatal nutrition"
+      ],
+      "format": "bundle",
+      "best_for": "Expecting mothers looking to support their prenatal health with a comprehensive supplement stack.",
+      "pairs_with": null
+    },
+    {
+      "id": "exercise-recovery-stack",
+      "name": "Exercise Recovery Stack",
+      "slug": "exercise-recovery-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "exercise-recovery",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "stacks"
+      ],
+      "price_usd": 198.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/exercise-recovery-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/er-v2-featured.jpg?v=1762198899",
+      "description_text": null,
+      "published_at": "2024-10-22T13:09:48-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "exercise recovery"
+      ],
+      "health_goals": [
+        "post-workout recovery"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to enhance their recovery after exercise.",
+      "pairs_with": null
+    },
+    {
+      "id": "sleep-stack",
+      "name": "Sleep Stack",
+      "slug": "sleep-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "growaov-collection",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "sleep",
+        "stacks"
+      ],
+      "price_usd": 178.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/sleep-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/hs-sleep-stack-v2-min2.jpg?v=1762198896",
+      "description_text": null,
+      "published_at": "2024-09-24T13:46:58-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "sleep support",
+        "relaxation"
+      ],
+      "health_goals": [
+        "insomnia",
+        "poor sleep quality"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to improve their sleep quality and achieve better relaxation.",
+      "pairs_with": null
+    },
+    {
+      "id": "red-white-blue-hat-copy",
+      "name": "Traditional Logo Hat",
+      "slug": "red-white-blue-hat-copy",
+      "product_type": "Hat",
+      "tags": [
+        "boost:upsell:hide",
+        "hs-merch",
+        "LUNA One Time Purchase",
+        "luna-sync"
+      ],
+      "price_usd": 32.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/red-white-blue-hat-copy",
+      "image_url": null,
+      "description_text": "Radical health looks good on you! Represent Heart & Soil and attract your tribe in our new Traditional Logo Hat. Low-profile, six panel with embroidered front and side logo Unstructured, cotton twill dad cap Antique brass buckle closure w/ H&S hem tag One size fits all",
+      "published_at": "2024-09-13T12:33:31-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": null,
+      "best_for": null,
+      "pairs_with": null
+    },
+    {
+      "id": "traditional-logo-tank",
+      "name": "Traditional Logo Tank",
+      "slug": "traditional-logo-tank",
+      "product_type": "Tank Top",
+      "tags": [
+        "boost:upsell:hide",
+        "hs-merch",
+        "LUNA One Time Purchase",
+        "luna-sync"
+      ],
+      "price_usd": 30.0,
+      "variants": [
+        {
+          "title": "Black / S",
+          "price_usd": 30.0,
+          "sku": "TT2001BS",
+          "available": true
+        },
+        {
+          "title": "Black / M",
+          "price_usd": 30.0,
+          "sku": "TT2001BM",
+          "available": true
+        },
+        {
+          "title": "Black / L",
+          "price_usd": 30.0,
+          "sku": "TT2001BL",
+          "available": true
+        },
+        {
+          "title": "Black / XL",
+          "price_usd": 30.0,
+          "sku": "TT2001BXL",
+          "available": true
+        },
+        {
+          "title": "Black / XXL",
+          "price_usd": 30.0,
+          "sku": "TT2001BXXL",
+          "available": true
+        }
+      ],
+      "url": "https://shop.heartandsoil.co/products/traditional-logo-tank",
+      "image_url": null,
+      "description_text": "Radical health looks good on you! Represent Heart & Soil and attract your tribe in our new Traditional Logo Tank. Casual graphic tank with front chest and back print Soft 100% combed ring-spun cotton Crew neck classic fit, H&S hem tag Unisex sizes S-XXL",
+      "published_at": "2024-09-13T12:24:51-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": null,
+      "best_for": null,
+      "pairs_with": null
+    },
+    {
+      "id": "traditional-logo-tee",
+      "name": "Traditional Logo Tee",
+      "slug": "traditional-logo-tee",
+      "product_type": "T-Shirt",
+      "tags": [
+        "boost:upsell:hide",
+        "hs-merch",
+        "LUNA One Time Purchase",
+        "luna-sync"
+      ],
+      "price_usd": 30.0,
+      "variants": [
+        {
+          "title": "Pepper / S",
+          "price_usd": 30.0,
+          "sku": "TS2004PS",
+          "available": true
+        },
+        {
+          "title": "Pepper / M",
+          "price_usd": 30.0,
+          "sku": "TS2004PM",
+          "available": true
+        },
+        {
+          "title": "Pepper / L",
+          "price_usd": 30.0,
+          "sku": "TS2004PL",
+          "available": true
+        },
+        {
+          "title": "Pepper / XL",
+          "price_usd": 30.0,
+          "sku": "TS2004PXL",
+          "available": true
+        },
+        {
+          "title": "Pepper / XXL",
+          "price_usd": 30.0,
+          "sku": "TS2004PXXL",
+          "available": true
+        }
+      ],
+      "url": "https://shop.heartandsoil.co/products/traditional-logo-tee",
+      "image_url": null,
+      "description_text": "Radical health looks good on you! Represent Heart & Soil and attract your tribe in our new Traditional Logo Tee. Casual graphic tee with front chest and back print Soft 100% combed ring-spun cotton Crew neck classic fit, H&S hem tag Unisex sizes S-XXL",
+      "published_at": "2024-09-13T12:21:33-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": null,
+      "best_for": null,
+      "pairs_with": null
+    },
+    {
+      "id": "free-frother",
+      "name": "Free Frother",
+      "slug": "free-frother",
+      "product_type": "",
+      "tags": [
+        "boost:quantity:disable",
+        "boost:subscribe-save:disable",
+        "boost:upsell:hide",
+        "luna-sync",
+        "noindex"
+      ],
+      "price_usd": 0.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/free-frother",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/hs-frother-1.jpg?v=1762198612",
+      "description_text": "Experience consistently flawless blending of powder and liquid with our powerful hand-held frother, ensuring a smooth and creamy drink every time you use it.",
+      "published_at": "2024-08-20T17:09:53-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": null,
+      "best_for": null,
+      "pairs_with": null
+    },
+    {
+      "id": "frother",
+      "name": "Frother",
+      "slug": "frother",
+      "product_type": "",
+      "tags": [
+        "luna-sync"
+      ],
+      "price_usd": 20.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/frother",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/hs-frother-1.jpg?v=1762198612",
+      "description_text": null,
+      "published_at": "2024-08-14T15:01:56-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": null,
+      "best_for": null,
+      "pairs_with": null
+    },
+    {
+      "id": "animal-based-protein",
+      "name": "Animal Based Protein",
+      "slug": "animal-based-protein",
+      "product_type": "Supplement",
+      "tags": [
+        "energy",
+        "exercise-performance",
+        "igg24_for_skincare_lovers",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "supplement"
+      ],
+      "price_usd": 82.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/animal-based-protein",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/hs-abp-1-min.jpg?v=1762198379",
+      "description_text": "The World\u2019s Cleanest Protein Powder Experience the highest form of nutrition with our new unflavored Animal-Based Protein. It\u2019s a 100% Grass-Fed Whey Concentrate enriched with Collagen & Colostrum (2g) to support muscle synthesis & foster true radical health.",
+      "published_at": "2024-07-23T15:24:23-05:00",
+      "ingredients": [
+        "Grass-Fed Whey",
+        "Collagen",
+        "Colostrum"
+      ],
+      "key_nutrients": [
+        "Collagen"
+      ],
+      "benefits": [
+        "muscle synthesis",
+        "energy",
+        "exercise performance"
+      ],
+      "health_goals": [
+        "low energy",
+        "exercise performance"
+      ],
+      "format": "powder",
+      "best_for": "Ideal for individuals seeking a clean protein source to enhance muscle synthesis and overall health.",
+      "pairs_with": null
+    },
+    {
+      "id": "red-white-blue-hat",
+      "name": "Red, White, & Blue Hat",
+      "slug": "red-white-blue-hat",
+      "product_type": "Hat",
+      "tags": [
+        "boost:upsell:hide",
+        "hs-merch",
+        "LUNA One Time Purchase",
+        "luna-sync"
+      ],
+      "price_usd": 32.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/red-white-blue-hat",
+      "image_url": null,
+      "description_text": "Radical health looks good on you! Represent Heart & Soil and attract your tribe in our new Vintage Logo Cap. Low profile, five panel cap with embroidered front panel Light weight Snapback w/ H&S hem tag One size fits all",
+      "published_at": "2024-05-09T14:29:47-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": null,
+      "best_for": null,
+      "pairs_with": null
+    },
+    {
+      "id": "red-white-blue-tee",
+      "name": "Red, White, & Blue Tee",
+      "slug": "red-white-blue-tee",
+      "product_type": "T-Shirt",
+      "tags": [
+        "boost:upsell:hide",
+        "hs-merch",
+        "LUNA One Time Purchase",
+        "luna-sync"
+      ],
+      "price_usd": 30.0,
+      "variants": [
+        {
+          "title": "Navy / S",
+          "price_usd": 30.0,
+          "sku": "TS2003NS",
+          "available": true
+        },
+        {
+          "title": "Navy / M",
+          "price_usd": 30.0,
+          "sku": "TS2003NM",
+          "available": true
+        },
+        {
+          "title": "Navy / L",
+          "price_usd": 30.0,
+          "sku": "TS2003NL",
+          "available": true
+        },
+        {
+          "title": "Navy / XL",
+          "price_usd": 30.0,
+          "sku": "TS2003NXL",
+          "available": true
+        },
+        {
+          "title": "Navy / XXL",
+          "price_usd": 30.0,
+          "sku": "TS2003NXXL",
+          "available": true
+        }
+      ],
+      "url": "https://shop.heartandsoil.co/products/red-white-blue-tee",
+      "image_url": null,
+      "description_text": "Radical health looks good on you! Represent Heart & Soil and attract your tribe in our new Red, White, & Blue Tee. Casual graphic tee with front chest and back print Soft 100% combed ring-spun cotton Crew neck classic fit, H&S hem tag Unisex sizes S-XXL",
+      "published_at": "2024-05-07T16:26:08-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": null,
+      "best_for": null,
+      "pairs_with": null
+    },
+    {
+      "id": "pure-american-liver",
+      "name": "Pure American Liver",
+      "slug": "pure-american-liver",
+      "product_type": "Supplement",
+      "tags": [
+        "energy",
+        "exercise-performance",
+        "exercise-recovery",
+        "igg24_for_kids",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "supplement"
+      ],
+      "price_usd": 47.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/pure-american-liver",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/HS-PAL-Gallery-Photo1.webp?v=1771349957",
+      "description_text": "Celebrated as nature\u2019s most nutrient-dense superfood, & embodying the spirit of America, Pure American Liver is your daily nutritional foundation for overall health.",
+      "published_at": "2024-04-30T11:47:05-05:00",
+      "ingredients": [
+        "Beef Liver"
+      ],
+      "key_nutrients": [
+        "Vitamin A",
+        "Iron",
+        "B Vitamins"
+      ],
+      "benefits": [
+        "energy",
+        "exercise performance",
+        "exercise recovery"
+      ],
+      "health_goals": [
+        "low energy",
+        "exercise recovery",
+        "overall health"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals seeking a nutrient-dense supplement to support energy and exercise performance.",
+      "pairs_with": null
+    },
+    {
+      "id": "joint-mobility-stack",
+      "name": "Joint & Mobility Stack",
+      "slug": "joint-mobility-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "bone-and-joint-health",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "noindex",
+        "stacks"
+      ],
+      "price_usd": 162.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/joint-mobility-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/JS_R.png?v=1762198315",
+      "description_text": null,
+      "published_at": "2023-11-17T09:29:31-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "joint support",
+        "mobility enhancement"
+      ],
+      "health_goals": [
+        "joint pain",
+        "mobility issues"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to improve joint health and mobility.",
+      "pairs_with": null
+    },
+    {
+      "id": "autoimmune-issues-stack",
+      "name": "Autoimmune Issues Stack",
+      "slug": "autoimmune-issues-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "autoimmune-issues",
+        "blackfriday-sale",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "noindex",
+        "stacks"
+      ],
+      "price_usd": 202.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/autoimmune-issues-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/1_c027c3bc-3e3f-41ab-9a1d-ba686cdd9706.webp?v=1762198313",
+      "description_text": null,
+      "published_at": "2023-11-17T08:12:32-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": "bundle",
+      "best_for": "Individuals looking to support their immune system and manage autoimmune issues.",
+      "pairs_with": null
+    },
+    {
+      "id": "anemia-stack",
+      "name": "Anemia Stack",
+      "slug": "anemia-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "anemia",
+        "blackfriday-sale",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "noindex",
+        "stacks"
+      ],
+      "price_usd": 160.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/anemia-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/1_2fb1835f-8114-4a62-974c-3317a53691cc.webp?v=1762198312",
+      "description_text": null,
+      "published_at": "2023-11-15T12:44:56-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "supports healthy iron levels",
+        "improves energy",
+        "enhances oxygen transport"
+      ],
+      "health_goals": [
+        "anemia",
+        "low energy",
+        "fatigue"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to support healthy iron levels and improve energy related to anemia.",
+      "pairs_with": null
+    },
+    {
+      "id": "immune-support-stack",
+      "name": "Immune Support Stack",
+      "slug": "immune-support-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "immune-support",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "noindex",
+        "stacks"
+      ],
+      "price_usd": 184.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/immune-support-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/1_3bc0cabe-2d02-4b75-a580-9d1ad5c70718.webp?v=1762198311",
+      "description_text": null,
+      "published_at": "2023-11-15T10:45:48-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "immune health"
+      ],
+      "health_goals": [
+        "immune support"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to enhance their immune system with a comprehensive supplement stack.",
+      "pairs_with": null
+    },
+    {
+      "id": "mood-stack",
+      "name": "Mood Stack",
+      "slug": "mood-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "mood",
+        "stacks"
+      ],
+      "price_usd": 148.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/mood-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/1_f9a83211-d508-4c02-8ff4-15b20cf4bfc5.webp?v=1762198309",
+      "description_text": null,
+      "published_at": "2023-11-15T06:56:41-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "mood support"
+      ],
+      "health_goals": [
+        "mood enhancement"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to improve their mood and emotional well-being.",
+      "pairs_with": null
+    },
+    {
+      "id": "histamine-intolerance-stack",
+      "name": "Histamine Intolerance Stack",
+      "slug": "histamine-intolerance-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "histamine-intolerance",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "noindex",
+        "stacks"
+      ],
+      "price_usd": 202.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/histamine-intolerance-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/1_091b80f2-4c83-406d-a184-08746318c9b1.webp?v=1762198308",
+      "description_text": null,
+      "published_at": "2023-11-14T13:12:08-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "histamine management",
+        "immune support"
+      ],
+      "health_goals": [
+        "histamine intolerance",
+        "allergy relief"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to manage histamine intolerance and related symptoms.",
+      "pairs_with": null
+    },
+    {
+      "id": "heart-health-stack",
+      "name": "Heart Health Stack",
+      "slug": "heart-health-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "heart-health",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "noindex",
+        "stacks"
+      ],
+      "price_usd": 158.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/heart-health-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/1_155a5ba6-e1c4-4ec6-ae24-5f8991b7df09.webp?v=1762198308",
+      "description_text": null,
+      "published_at": "2023-11-14T09:42:26-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "heart health"
+      ],
+      "health_goals": [
+        "heart health"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to support their heart health with a combination of supplements.",
+      "pairs_with": null
+    },
+    {
+      "id": "digestive-stack",
+      "name": "Digestive Stack",
+      "slug": "digestive-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "digestive-health",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "noindex",
+        "stacks"
+      ],
+      "price_usd": 202.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/digestive-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/1_2161cff2-499d-475b-897d-f6001dd52623.webp?v=1762198307",
+      "description_text": null,
+      "published_at": "2023-11-14T07:48:30-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "digestive health"
+      ],
+      "health_goals": [
+        "digestive issues"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to support their digestive health with a comprehensive supplement stack.",
+      "pairs_with": null
+    },
+    {
+      "id": "allergies-stack",
+      "name": "Allergies Stack",
+      "slug": "allergies-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "allergies",
+        "blackfriday-sale",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "stacks"
+      ],
+      "price_usd": 260.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/allergies-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/1_2937d4ee-b679-4e29-b1bb-f3823703dfde.webp?v=1762198303",
+      "description_text": null,
+      "published_at": "2023-11-06T11:30:18-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "allergy relief"
+      ],
+      "health_goals": [
+        "allergies"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking for a comprehensive solution to manage allergy symptoms.",
+      "pairs_with": null
+    },
+    {
+      "id": "fat-loss-stack",
+      "name": "Fat Loss Stack",
+      "slug": "fat-loss-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "stacks",
+        "weight-loss"
+      ],
+      "price_usd": 150.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/fat-loss-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/1_e4de430a-bfa1-4a99-bc2e-ff637a93de27.webp?v=1762198301",
+      "description_text": null,
+      "published_at": "2023-11-03T12:27:20-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "weight management",
+        "metabolism support"
+      ],
+      "health_goals": [
+        "weight loss",
+        "fat reduction"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to support their weight loss journey with a combination of supplements.",
+      "pairs_with": null
+    },
+    {
+      "id": "male-fertility-stack",
+      "name": "Male Fertility Stack",
+      "slug": "male-fertility-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "fertility-male-libido",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "igg24_for_him",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "male-fertility-libido",
+        "stacks"
+      ],
+      "price_usd": 150.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/male-fertility-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/1_e3e1061b-390e-4120-a3f6-e627ba2f828d.webp?v=1762198294",
+      "description_text": null,
+      "published_at": "2023-10-25T07:27:39-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "fertility support",
+        "libido enhancement"
+      ],
+      "health_goals": [
+        "male fertility",
+        "low libido"
+      ],
+      "format": "bundle",
+      "best_for": "Men looking to support their fertility and enhance libido.",
+      "pairs_with": null
+    },
+    {
+      "id": "warrior-stack",
+      "name": "Warrior Stack",
+      "slug": "warrior-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "stacks",
+        "warrior"
+      ],
+      "price_usd": 184.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/warrior-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/product_24da16fd-12b6-4d5a-9bd1-c889c66abc0f.webp?v=1762198293",
+      "description_text": null,
+      "published_at": "2023-10-24T14:17:54-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": "bundle",
+      "best_for": "Individuals looking for a comprehensive supplement stack to support overall health and performance.",
+      "pairs_with": null
+    },
+    {
+      "id": "energy-stack-v1",
+      "name": "Energy Stack - V1",
+      "slug": "energy-stack-v1",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "boost:hide",
+        "energy",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "LUNA Product",
+        "luna-sync",
+        "noindex",
+        "stacks"
+      ],
+      "price_usd": 134.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/energy-stack-v1",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/energy-stack-main.webp?v=1762198293",
+      "description_text": null,
+      "published_at": "2023-10-24T10:22:09-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "energy"
+      ],
+      "health_goals": [
+        "low energy"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to boost their energy levels with a combination of supplements.",
+      "pairs_with": null
+    },
+    {
+      "id": "female-vitality-stack",
+      "name": "Female Vitality Stack",
+      "slug": "female-vitality-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "female-fertility-libido",
+        "fertility-female-libido",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "igg24_for_her",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "stacks"
+      ],
+      "price_usd": 156.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/female-vitality-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/female-vitality.webp?v=1762198290",
+      "description_text": null,
+      "published_at": "2023-10-23T10:19:53-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "fertility support",
+        "libido enhancement"
+      ],
+      "health_goals": [
+        "female fertility",
+        "low libido"
+      ],
+      "format": "bundle",
+      "best_for": "Women looking to support fertility and enhance libido.",
+      "pairs_with": null
+    },
+    {
+      "id": "stress-support-stack",
+      "name": "Stress Support Stack",
+      "slug": "stress-support-stack",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "stacks",
+        "stress-support"
+      ],
+      "price_usd": 182.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/stress-support-stack",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/product.webp?v=1762198289",
+      "description_text": null,
+      "published_at": "2023-10-20T12:10:38-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "stress relief",
+        "calmness",
+        "relaxation"
+      ],
+      "health_goals": [
+        "stress management",
+        "anxiety reduction",
+        "better sleep"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to manage stress and promote relaxation.",
+      "pairs_with": null
+    },
+    {
+      "id": "thyroid-health-stack-v1",
+      "name": "Thyroid Health Stack - V1",
+      "slug": "thyroid-health-stack-v1",
+      "product_type": "Supplement",
+      "tags": [
+        "blackfriday-sale",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "LUNA Product",
+        "luna-sync",
+        "stacks",
+        "thyroid-health"
+      ],
+      "price_usd": 152.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/thyroid-health-stack-v1",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/thyroid-health-stack_7690d6c1-4293-4b42-bdb0-cc90d4950d7e.webp?v=1762198288",
+      "description_text": "This stack is a comprehensive nutritional strategy for optimal thyroid health. Designed to address common thyroid-related issues at a root cause level. 1x Beef Organs 1x Gut & Digestion 1x Firestarter",
+      "published_at": "2023-10-17T18:05:55-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "thyroid health"
+      ],
+      "health_goals": [
+        "thyroid-related issues"
+      ],
+      "format": "bundle",
+      "best_for": "Individuals looking to support their thyroid health with a comprehensive nutritional strategy.",
+      "pairs_with": null
+    },
+    {
+      "id": "joint-strength-repair",
+      "name": "Joint Strength & Repair",
+      "slug": "joint-strength-repair",
+      "product_type": "Supplement",
+      "tags": [
+        "growaov-collection",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync"
+      ],
+      "price_usd": 58.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/joint-strength-repair",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/HS-JSR-Gallery-Photo1.png?v=1762974544",
+      "description_text": "Joint Strength & Repair is formulated with essential nutrients and peptides to support strong, healthy, and mobile joints.",
+      "published_at": "2023-09-13T13:49:39-05:00",
+      "ingredients": null,
+      "key_nutrients": [
+        "Peptides"
+      ],
+      "benefits": [
+        "joint support",
+        "mobility"
+      ],
+      "health_goals": [
+        "joint pain",
+        "mobility issues"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals looking to support joint health and improve mobility.",
+      "pairs_with": null
+    },
+    {
+      "id": "humankind-test-product",
+      "name": "Humankind Test Product",
+      "slug": "humankind-test-product",
+      "product_type": "",
+      "tags": [
+        "boost:hide",
+        "boost:upsell:hide",
+        "growaov-ignore",
+        "luna-sync"
+      ],
+      "price_usd": 0.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/humankind-test-product",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/hs-humankind-test.jpg?v=1759500087",
+      "description_text": "This product is for testing purposes only.",
+      "published_at": "2023-05-11T07:53:40-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": null,
+      "best_for": null,
+      "pairs_with": null
+    },
+    {
+      "id": "heart-and-soil-vintage-logo-hat",
+      "name": "Vintage Logo Cap",
+      "slug": "heart-and-soil-vintage-logo-hat",
+      "product_type": "Hat",
+      "tags": [
+        "boost:upsell:hide",
+        "hs-merch",
+        "LUNA One Time Purchase",
+        "LUNA Recommendation",
+        "luna-sync"
+      ],
+      "price_usd": 32.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/heart-and-soil-vintage-logo-hat",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/Merch-Tee1_10.png?v=1762198220",
+      "description_text": "Radical health looks good on you! Represent Heart & Soil and attract your tribe in our new Vintage Logo Cap. Low profile, five panel cap with embroidered front panel Light weight, 100% cotton Adjustable fastener with metal clasp , H&S hem tag One size fits all",
+      "published_at": "2023-03-07T13:40:03-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": null,
+      "best_for": null,
+      "pairs_with": null
+    },
+    {
+      "id": "radical-health-seeker-tee",
+      "name": "Radical Health Seeker Tee",
+      "slug": "radical-health-seeker-tee",
+      "product_type": "T-Shirt",
+      "tags": [
+        "boost:upsell:hide",
+        "hs-merch",
+        "LUNA One Time Purchase",
+        "LUNA Recommendation",
+        "luna-sync"
+      ],
+      "price_usd": 30.0,
+      "variants": [
+        {
+          "title": "Black / S",
+          "price_usd": 30.0,
+          "sku": "TS2001BS",
+          "available": true
+        },
+        {
+          "title": "Black / M",
+          "price_usd": 30.0,
+          "sku": "TS2001BM",
+          "available": true
+        },
+        {
+          "title": "Black / L",
+          "price_usd": 30.0,
+          "sku": "TS2001BL",
+          "available": true
+        },
+        {
+          "title": "Black / XL",
+          "price_usd": 30.0,
+          "sku": "TS2001BXL",
+          "available": true
+        },
+        {
+          "title": "Black / XXL",
+          "price_usd": 30.0,
+          "sku": "TS2001BXXL",
+          "available": true
+        },
+        {
+          "title": "Cream / S",
+          "price_usd": 30.0,
+          "sku": "TS2001CS",
+          "available": true
+        },
+        {
+          "title": "Cream / M",
+          "price_usd": 30.0,
+          "sku": "TS2001CM",
+          "available": true
+        },
+        {
+          "title": "Cream / L",
+          "price_usd": 30.0,
+          "sku": "TS2001CL",
+          "available": true
+        },
+        {
+          "title": "Cream / XL",
+          "price_usd": 30.0,
+          "sku": "TS2001CXL",
+          "available": true
+        },
+        {
+          "title": "Cream / XXL",
+          "price_usd": 30.0,
+          "sku": "TS2001CXXL",
+          "available": true
+        }
+      ],
+      "url": "https://shop.heartandsoil.co/products/radical-health-seeker-tee",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/Merch-Tee1.png?v=1762198215",
+      "description_text": "Radical health looks good on you! Represent Heart & Soil and attract your tribe in our new Radical Health Seeker Tee. Casual graphic tee with front chest and back print Soft 100% combed ring-spun cotton Crew neck classic fit, H&S hem tag Unisex sizes S-XXL",
+      "published_at": "2023-01-30T11:43:03-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": null,
+      "best_for": null,
+      "pairs_with": null
+    },
+    {
+      "id": "egift-card",
+      "name": "E-GIFT CARD",
+      "slug": "egift-card",
+      "product_type": "Gift Cards",
+      "tags": [
+        "Gift",
+        "Gift Card",
+        "Gift Ideas",
+        "growaov-collection",
+        "luna-sync",
+        "Review Exclusion"
+      ],
+      "price_usd": 20.0,
+      "variants": [
+        {
+          "title": "$20.00",
+          "price_usd": 20.0,
+          "sku": "",
+          "available": true
+        },
+        {
+          "title": "$30.00",
+          "price_usd": 30.0,
+          "sku": "",
+          "available": true
+        },
+        {
+          "title": "$50.00",
+          "price_usd": 50.0,
+          "sku": "",
+          "available": true
+        },
+        {
+          "title": "$75.00",
+          "price_usd": 75.0,
+          "sku": "",
+          "available": true
+        },
+        {
+          "title": "$100.00",
+          "price_usd": 100.0,
+          "sku": "",
+          "available": true
+        },
+        {
+          "title": "$250.00",
+          "price_usd": 250.0,
+          "sku": null,
+          "available": true
+        },
+        {
+          "title": "$500.00",
+          "price_usd": 500.0,
+          "sku": null,
+          "available": true
+        },
+        {
+          "title": "62.92",
+          "price_usd": 62.92,
+          "sku": null,
+          "available": true
+        }
+      ],
+      "url": "https://shop.heartandsoil.co/products/egift-card",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/products/HS-GiftCard-Mockup.png?v=1762198184",
+      "description_text": "Help your tribe reclaim their birthright to Radical Health with the Heart & Soil eGift Card! This hassle-free process is the perfect way to show your love and assist others in their health journey. Once your eGift Card is ordered the recipient will receive an email that contains the eGift Card and clear instructions on how to use it upon check out. Choose from the following amounts:",
+      "published_at": "2022-10-28T08:29:43-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": null,
+      "health_goals": null,
+      "format": null,
+      "best_for": null,
+      "pairs_with": null
+    },
+    {
+      "id": "warrior",
+      "name": "WARRIOR",
+      "slug": "warrior",
+      "product_type": "Supplement",
+      "tags": [
+        "becoming-superhuman",
+        "energy",
+        "exercise-performance",
+        "exercise-recovery",
+        "growaov-collection",
+        "growaov-subscription",
+        "heart-health",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "supplement",
+        "warrior",
+        "weight-loss"
+      ],
+      "price_usd": 50.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/warrior",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/products/Warrior-1_e0f043d7-1eef-4143-ad89-919e9b52c225.png?v=1762198162",
+      "description_text": "Feed your inner warrior. Foundational support for strength, recovery, and exercise performance.",
+      "published_at": "2022-04-11T19:00:23-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "strength",
+        "recovery",
+        "exercise performance",
+        "energy",
+        "heart health"
+      ],
+      "health_goals": [
+        "exercise performance",
+        "exercise recovery",
+        "weight loss"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals looking to enhance their strength, recovery, and exercise performance.",
+      "pairs_with": null
+    },
+    {
+      "id": "mood-memory-brain",
+      "name": "Mood, Memory & Brain",
+      "slug": "mood-memory-brain",
+      "product_type": "Supplement",
+      "tags": [
+        "growaov-collection",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "mood",
+        "prenatal-health",
+        "stress-support",
+        "supplement"
+      ],
+      "price_usd": 66.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/mood-memory-brain",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/HS-MMB-Gallery-Photo1.webp?v=1771358039",
+      "description_text": "Level up your cognition. Targeted support for mood, focus, and mental clarity.",
+      "published_at": "2021-10-12T17:47:50-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "mood",
+        "focus",
+        "mental clarity"
+      ],
+      "health_goals": [
+        "mood support",
+        "focus improvement",
+        "mental clarity"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals seeking to enhance mood, focus, and mental clarity.",
+      "pairs_with": null
+    },
+    {
+      "id": "bone-matrix",
+      "name": "Bone Matrix",
+      "slug": "bone-matrix",
+      "product_type": "Supplement",
+      "tags": [
+        "bone-and-joint-health",
+        "growaov-collection",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "supplement"
+      ],
+      "price_usd": 32.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/bone-matrix",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/Bone-Marix.png?v=1762198107",
+      "description_text": "Become unbreakable. Foundational support to build strong bones, joints, and improve flexibility.",
+      "published_at": "2021-01-13T17:01:32-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "strong bones",
+        "joint support",
+        "improved flexibility"
+      ],
+      "health_goals": [
+        "bone health",
+        "joint issues",
+        "flexibility"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals looking to support bone and joint health and improve flexibility.",
+      "pairs_with": null
+    },
+    {
+      "id": "her-package",
+      "name": "Her Package",
+      "slug": "her-package",
+      "product_type": "Supplement",
+      "tags": [
+        "female-fertility-libido",
+        "fertility-female-libido",
+        "growaov-collection",
+        "growaov-subscription",
+        "igg24_for_her",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "supplement",
+        "testing"
+      ],
+      "price_usd": 74.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/her-package",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/HS-HP-Gallery-Photo1.webp?v=1771346995",
+      "description_text": "Enhance your female health. Next-level support for hormonal balance, menstrual dysfunction, and fertility.",
+      "published_at": "2021-01-13T16:54:05-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "hormonal balance",
+        "menstrual support",
+        "fertility"
+      ],
+      "health_goals": [
+        "hormonal imbalance",
+        "menstrual dysfunction",
+        "fertility issues"
+      ],
+      "format": "bundle",
+      "best_for": "Women seeking support for hormonal balance, menstrual health, and fertility.",
+      "pairs_with": null
+    },
+    {
+      "id": "skin-hair-nails",
+      "name": "Skin, Hair & Nails",
+      "slug": "skin-hair-nails",
+      "product_type": "Supplement",
+      "tags": [
+        "becoming-superhuman",
+        "bone-and-joint-health",
+        "growaov-collection",
+        "growaov-subscription",
+        "hair-skin-nails",
+        "igg24_for_skincare_lovers",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "sleep",
+        "supplement"
+      ],
+      "price_usd": 54.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/skin-hair-nails",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/HS-SHN-Gallery-Photo1.webp?v=1771351619",
+      "description_text": "Become radiant. Targeted support for healthy skin, hair, and nails.",
+      "published_at": "2021-01-11T14:48:45-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "healthy skin",
+        "hair support",
+        "nail support"
+      ],
+      "health_goals": [
+        "skin health",
+        "hair growth",
+        "nail strength"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals looking to improve the health and appearance of their skin, hair, and nails.",
+      "pairs_with": null
+    },
+    {
+      "id": "whole-package",
+      "name": "Whole Package",
+      "slug": "whole-package",
+      "product_type": "Supplement",
+      "tags": [
+        "fertility-male-libido",
+        "growaov-collection",
+        "growaov-subscription",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "male-fertility-libido",
+        "supplement",
+        "warrior"
+      ],
+      "price_usd": 68.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/whole-package",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/HS-WP-Gallery-Photo1.webp?v=1771346870",
+      "description_text": "Reinforce your manhood. Supports exercise performance, hormone production, and sexual health.",
+      "published_at": "2021-01-11T13:10:42-06:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "exercise performance",
+        "hormone production",
+        "sexual health"
+      ],
+      "health_goals": [
+        "male fertility",
+        "libido",
+        "hormone balance"
+      ],
+      "format": "capsule",
+      "best_for": "Men looking to support their fertility, libido, and overall sexual health.",
+      "pairs_with": null
+    },
+    {
+      "id": "grass-fed-colostrum",
+      "name": "Grass-Fed Colostrum",
+      "slug": "grass-fed-colostrum",
+      "product_type": "Supplement",
+      "tags": [
+        "allergies",
+        "autoimmune-issues",
+        "digestive-health",
+        "exercise-recovery",
+        "growaov-collection",
+        "growaov-subscription",
+        "histamine-intolerance",
+        "igg24_for_skincare_lovers",
+        "immune-support",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "supplement"
+      ],
+      "price_usd": 68.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/grass-fed-colostrum",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/hs-grass-fed-colostrum-pdp-min.png?v=1762198090",
+      "description_text": "Fortify your immunity. Next-level support for gut healing, recovery, and immune function.",
+      "published_at": "2020-10-21T09:58:19-05:00",
+      "ingredients": [
+        "Grass-Fed Colostrum"
+      ],
+      "key_nutrients": [
+        "Immunoglobulins",
+        "Lactoferrin"
+      ],
+      "benefits": [
+        "immune support",
+        "gut healing",
+        "exercise recovery"
+      ],
+      "health_goals": [
+        "allergies",
+        "autoimmune issues",
+        "digestive health",
+        "histamine intolerance"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals looking to enhance their immune system and support gut health.",
+      "pairs_with": null
+    },
+    {
+      "id": "histamine-immune",
+      "name": "Histamine & Immune",
+      "slug": "histamine-immune",
+      "product_type": "Supplement",
+      "tags": [
+        "allergies",
+        "autoimmune-issues",
+        "becoming-superhuman",
+        "digestive-health",
+        "exercise-recovery",
+        "growaov-collection",
+        "growaov-subscription",
+        "histamine-intolerance",
+        "immune-support",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "sleep",
+        "stress-support",
+        "supplement"
+      ],
+      "price_usd": 66.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/histamine-immune",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/Histamine-Immune_59d0a734-eefb-4d07-bcc8-6fcffe8658f7.png?v=1762207493",
+      "description_text": "Strengthen your defenses. Targeted support for the immune system, histamine intolerance, and allergies.",
+      "published_at": "2020-09-11T15:36:48-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "immune support",
+        "histamine intolerance",
+        "allergy relief"
+      ],
+      "health_goals": [
+        "allergies",
+        "autoimmune issues",
+        "histamine intolerance"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals looking to strengthen their immune system and manage histamine intolerance and allergies.",
+      "pairs_with": null
+    },
+    {
+      "id": "gut-digestion",
+      "name": "Gut & Digestion",
+      "slug": "gut-digestion",
+      "product_type": "Supplement",
+      "tags": [
+        "allergies",
+        "autoimmune-issues",
+        "becoming-superhuman",
+        "digestive-health",
+        "growaov-collection",
+        "growaov-subscription",
+        "hair-skin-nails",
+        "histamine-intolerance",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "supplement",
+        "thyroid-health",
+        "weight-loss"
+      ],
+      "price_usd": 68.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/gut-digestion",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/HS-GD-Gallery-Photo1.webp?v=1771357936",
+      "description_text": "Heal your gut. Targeted support for leaky gut, digestive issues, and autoimmune illness.",
+      "published_at": "2020-08-17T18:25:03-05:00",
+      "ingredients": null,
+      "key_nutrients": null,
+      "benefits": [
+        "digestive health",
+        "autoimmune support",
+        "gut healing"
+      ],
+      "health_goals": [
+        "leaky gut",
+        "digestive issues",
+        "autoimmune illness"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals seeking targeted support for gut and digestive health, especially those with autoimmune concerns.",
+      "pairs_with": null
+    },
+    {
+      "id": "lifeblood",
+      "name": "Lifeblood",
+      "slug": "lifeblood",
+      "product_type": "Supplement",
+      "tags": [
+        "allergies",
+        "anemia",
+        "exercise-performance",
+        "growaov-collection",
+        "growaov-subscription",
+        "heart-health",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "prenatal-health",
+        "supplement"
+      ],
+      "price_usd": 58.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/lifeblood",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/Lifeblood_01ed7cba-080b-4632-be51-c894924ad6cd.png?v=1762206835",
+      "description_text": "Improve your cardiovascular health. Targeted support to improve iron stores, oxygen delivery, and endurance.",
+      "published_at": "2020-07-28T19:39:31-05:00",
+      "ingredients": null,
+      "key_nutrients": [
+        "Iron"
+      ],
+      "benefits": [
+        "cardiovascular health",
+        "improve iron stores",
+        "oxygen delivery",
+        "endurance"
+      ],
+      "health_goals": [
+        "anemia",
+        "exercise performance",
+        "heart health",
+        "prenatal health"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals looking to improve cardiovascular health and enhance endurance, particularly those with anemia or prenatal health concerns.",
+      "pairs_with": null
+    },
+    {
+      "id": "fire-starter",
+      "name": "Firestarter",
+      "slug": "fire-starter",
+      "product_type": "Supplement",
+      "tags": [
+        "AGM_Influencer",
+        "becoming-superhuman",
+        "energy",
+        "female-fertility-libido",
+        "fertility-female-libido",
+        "fertility-male-libido",
+        "growaov-collection",
+        "growaov-subscription",
+        "hair-skin-nails",
+        "igg24_best_selling_under_50",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "male-fertility-libido",
+        "mood",
+        "prenatal-health",
+        "supplement",
+        "thyroid-health",
+        "warrior",
+        "weight-loss"
+      ],
+      "price_usd": 32.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/fire-starter",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/HS-FS-Gallery-Photo1.webp?v=1771350938",
+      "description_text": "Firestarter is specifically formulated to support metabolic function, healthy weight management, and nutrient absorption by delivering bioavailable fats sourced from premium-quality, 100% grass-fed suet.\u2020",
+      "published_at": "2020-06-26T05:35:15-05:00",
+      "ingredients": [
+        "Grass-Fed Suet"
+      ],
+      "key_nutrients": null,
+      "benefits": [
+        "energy",
+        "metabolic function",
+        "weight management",
+        "nutrient absorption"
+      ],
+      "health_goals": [
+        "low energy",
+        "weight loss",
+        "thyroid health",
+        "fertility"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals looking to support their metabolism and manage weight with bioavailable fats.",
+      "pairs_with": null
+    },
+    {
+      "id": "beef-organs",
+      "name": "Beef Organs",
+      "slug": "beef-organs",
+      "product_type": "Supplement",
+      "tags": [
+        "AGM_Influencer",
+        "anemia",
+        "energy",
+        "growaov-collection",
+        "growaov-subscription",
+        "igg24_for_kids",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "prenatal-health",
+        "supplement",
+        "thyroid-health"
+      ],
+      "price_usd": 52.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/beef-organs",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/Beef-Organs.webp?v=1771346360",
+      "description_text": "Nature's ultimate multivitamin. Foundational support for overall health, vitality, and energy.",
+      "published_at": "2020-01-21T08:19:08-06:00",
+      "ingredients": [
+        "Beef Liver",
+        "Beef Heart",
+        "Beef Kidney",
+        "Beef Pancreas",
+        "Beef Spleen"
+      ],
+      "key_nutrients": [
+        "Vitamin A",
+        "CoQ10",
+        "Iron",
+        "B Vitamins"
+      ],
+      "benefits": [
+        "energy",
+        "vitality",
+        "overall health"
+      ],
+      "health_goals": [
+        "low energy",
+        "anemia",
+        "thyroid health",
+        "prenatal health"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals seeking foundational support for overall health and increased energy.",
+      "pairs_with": null
+    },
+    {
+      "id": "bone-marrow-liver",
+      "name": "Bone Marrow & Liver",
+      "slug": "bone-marrow-liver",
+      "product_type": "Supplement",
+      "tags": [
+        "anemia",
+        "becoming-superhuman",
+        "bone-and-joint-health",
+        "exercise-performance",
+        "female-fertility-libido",
+        "fertility-female-libido",
+        "fertility-male-libido",
+        "growaov-collection",
+        "growaov-ignore",
+        "growaov-subscription",
+        "heart-health",
+        "immune-support",
+        "LUNA Product",
+        "LUNA Recommendation",
+        "luna-sync",
+        "male-fertility-libido",
+        "mood",
+        "sleep",
+        "stress-support",
+        "supplement"
+      ],
+      "price_usd": 50.0,
+      "variants": null,
+      "url": "https://shop.heartandsoil.co/products/bone-marrow-liver",
+      "image_url": "https://cdn.shopify.com/s/files/1/0317/9898/4835/files/Bone-Marrow-Liver_a42ab409-20d5-4613-9f95-0c81cd607b0e.png?v=1762206909",
+      "description_text": "Reinforce your body and mind. Foundational support for bone and tissue repair, skin health, and mood.",
+      "published_at": "2020-01-21T07:56:45-06:00",
+      "ingredients": [
+        "Bone Marrow",
+        "Beef Liver"
+      ],
+      "key_nutrients": [
+        "Vitamin A",
+        "Iron"
+      ],
+      "benefits": [
+        "bone and tissue repair",
+        "skin health",
+        "mood support"
+      ],
+      "health_goals": [
+        "anemia",
+        "bone and joint health",
+        "female fertility",
+        "male fertility",
+        "immune support",
+        "stress support"
+      ],
+      "format": "capsule",
+      "best_for": "Individuals seeking foundational support for bone, tissue, and mood health.",
+      "pairs_with": null
+    }
+  ]
+}

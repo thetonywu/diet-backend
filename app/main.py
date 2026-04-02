@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(messag
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routes import chat
+from app.routes import chat, products
 from app.retrieval import _load_and_index  # noqa: E402
 
 
@@ -34,6 +34,7 @@ app.add_middleware(
 )
 
 app.include_router(chat.router, prefix="/api")
+app.include_router(products.router, prefix="/api")
 
 
 @app.get("/health")
