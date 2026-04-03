@@ -22,6 +22,15 @@ _video_chunk_index: dict[str, dict] = {}  # chunk_id -> chunk
 _products: list[dict] = []
 _product_embeddings: np.ndarray | None = None
 
+# Pinned chunk mappings: exact user message (lowercased) → list of chunk_ids to inject.
+# Chunk ID format: {video_id}_{start_seconds}. These bypass semantic search.
+# To find a chunk_id: look up the video JSON in knowledge-base/video-chunks/,
+# find the chunk by title, and use its start_seconds.
+_PINNED_CHUNKS: dict[str, list[str]] = {
+    # "Introduction to Animal-Based Diet" (NUUq4VT9miE, 0:00)
+    "what is the animal based diet?": ["NUUq4VT9miE_0"],
+}
+
 
 def _get_model() -> SentenceTransformer:
     global _model
@@ -222,6 +231,14 @@ def get_relevant_articles(query: str, top_n: int = 3, min_score: float = 0.5) ->
 def get_relevant_video_chunks(query: str, top_n: int = 5, min_score: float = 0.45) -> list[dict]:
     if _video_embeddings is None or not _video_chunks:
         return []
+
+    # Check pinned mappings first — exact match on lowercased query.
+    pinned_ids = _PINNED_CHUNKS.get(query.strip().lower())
+    if pinned_ids:
+        pinned = [_video_chunk_index[cid] for cid in pinned_ids if cid in _video_chunk_index]
+        logging.info("pinned video chunks: %s", [c["chunk_title"] for c in pinned])
+        return pinned
+
     model = _get_model()
     query_vec = model.encode(
         ["query: " + query],
